@@ -1,0 +1,26 @@
+.page__header__top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-onyx);
+  padding: 18px 361px;
+  width: 1919px;
+  height: 58px;
+}
+.social-icons{
+    display: flex;
+  justify-content: space-between;
+  gap: 42px;
+  height: 20px;
+  width: 152px;
+}
+.work-time{
+    display: flex;
+    width: 196px;
+    height: 22px;
+    gap: 10px;
+    font-family: var(--font-family);
+    margin-top: 4px;
+    margin-bottom: 4px;
+    align-items: center; 
+}
