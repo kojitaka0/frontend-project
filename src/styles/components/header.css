@@ -1,11 +1,15 @@
+.page__header{
+   background-color: var(--color-onyx)
+}
 .page__header__top{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--color-onyx);
-  padding: 18px 361px;
-  width: 1919px;
-  height: 58px;
+  width: 1167px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  gap: 340;
+  background-color: var(--color-onyx)
 }
 .social-icons{
     display: flex;
@@ -23,4 +27,22 @@
     margin-top: 4px;
     margin-bottom: 4px;
     align-items: center; 
+}
+.address{
+  display: flex;
+    width: 169px;
+    height: 22px;
+    gap: 10px;
+    font-family: var(--font-family);
+    margin-top: 4px;
+    margin-bottom: 4px;
+    align-items: center;   
+}
+.social-icons{
+  gap: 25px;
+  width: 160px;
+  height: 19px;
+}
+.container-header-nav{
+  background-color: ;
 }
