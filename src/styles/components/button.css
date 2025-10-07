@@ -1,0 +1,19 @@
+.btn-call{
+    display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: #fff;
+  color: #353535;
+  border-radius: 42px;
+  padding: 8px 41px 8px 0px;
+  margin-left: 75px;
+  width: 244px;
+  height: 59px;
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+color: #353535;
+  gap: 11px;
+}

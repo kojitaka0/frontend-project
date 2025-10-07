@@ -12,7 +12,7 @@
   background-color: var(--color-onyx)
 }
 .social-icons{
-    display: flex;
+  display: flex;
   justify-content: space-between;
   gap: 42px;
   height: 20px;
@@ -44,5 +44,19 @@
   height: 19px;
 }
 .container-header-nav{
-  background-color: ;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-eerie-black);
+  width: 1167px;
+  height: 139px;
+}
+.logo{
+  display: flex;
+  gap: 11px;
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 105%;
+  color: #fff;
+  padding-right: 105px;
 }
