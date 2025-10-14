@@ -1,0 +1,48 @@
+.bunner__media{
+    grid-area: content;
+    z-index: 1;
+}
+.bunner_content{
+    border-radius: 29px;
+    padding: 48px 60px 58px;
+    width: 788px;
+    height: 267px;
+    backdrop-filter: blur(11px);
+    background: rgba(255, 255, 255, 0.85);
+    grid-area: content;
+    z-index: 2;
+    margin: 178px 771px 175px 361px;
+}
+.bunner_title{
+    width: 668px;
+    height: 161px;
+}
+.bunner_image{
+     object-fit: cover;
+}
+.bunner_head{
+    border-radius: 20px;
+    padding: 0px 15px;
+    width: 118px;
+    height: 24px;
+    background-color: var(--color-yellow-orange);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #181818;
+}
+.bunner_foater{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 116%;
+    color: #181818;
+}
+.page__bunner{
+    display: grid;
+    grid-template-areas: "content";
+    grid-template-columns: 1fr;
+}

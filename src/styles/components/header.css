@@ -5,11 +5,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1167px;
+  width: 1912px;
   padding-top: 18px;
   padding-bottom: 18px;
+  padding-left: 361px;
+  padding-right: 361px;
   gap: 340;
-  background-color: var(--color-onyx)
+  background-color: var(--color-onyx);
 }
 .social-icons{
   display: flex;
@@ -47,8 +49,12 @@
   display: flex;
   align-items: center;
   background-color: var(--color-eerie-black);
-  width: 1167px;
+  width: 1912px;
   height: 139px;
+  padding-left: 360px;
+  padding-right: 360px;
+  
+
 }
 .logo{
   display: flex;
@@ -59,4 +65,8 @@
   line-height: 105%;
   color: #fff;
   padding-right: 105px;
+}
+.page{
+  width: 1912px;
+  margin: auto;
 }
