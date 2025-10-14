@@ -34,14 +34,15 @@
     line-height: 148%;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: #181818;
+    color: var(--color-onyx);
 }
 .bunner_foater{
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 50px;
     line-height: 116%;
-    color: #181818;
+    color: var(--color-onyx);
+    padding-top: 21px;
 }
 .page__bunner{
     display: grid;

@@ -28,7 +28,12 @@
     font-family: var(--font-family);
     margin-top: 4px;
     margin-bottom: 4px;
-    align-items: center; 
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: var(--color-whitly);
 }
 .address{
   display: flex;
@@ -38,7 +43,12 @@
     font-family: var(--font-family);
     margin-top: 4px;
     margin-bottom: 4px;
-    align-items: center;   
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: var(--color-whitly);   
 }
 .social-icons{
   gap: 25px;
@@ -63,7 +73,7 @@
   font-weight: 600;
   font-size: 26px;
   line-height: 105%;
-  color: #fff;
+  color: var(--color-whitly);
   padding-right: 105px;
 }
 .page{

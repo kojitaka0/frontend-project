@@ -8,18 +8,18 @@
   display: flex;
   gap: 30px;
   color: var(--color-gray);
-    width: 561px;
+  width: 561px;
   height: 32px;
   
 
 }
 .nav__item{
-    display: flex;
-    align-items: center;
-    font-family: var(--font-family);
-font-weight: 400;
-font-size: 17px;
-line-height: 160%;
-color: #fff;
-    gap: 8px;
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 160%;
+  color: var(--color-whitly);
+  gap: 8px;
 }

@@ -1,19 +1,18 @@
 .btn-call{
-    display: inline-flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   border: none;
-  background: #fff;
-  color: #353535;
+  background: var(--color-whitly);
   border-radius: 42px;
-  padding: 8px 41px 8px 0px;
-  margin-left: 105px;
+  padding: 8px 41px 8px 10px;
+  margin-left: 115px;
   width: 244px;
   height: 59px;
   font-family: var(--font-family);
-font-weight: 400;
-font-size: 18px;
-line-height: 160%;
-color: #353535;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: var(--color-charcoal-gray);
   gap: 11px;
 }
