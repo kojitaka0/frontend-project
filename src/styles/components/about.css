@@ -1,8 +1,8 @@
 .about{
     width: 1271px;
     height: 390px;
-    background-color: var(--color-white);
-    margin: 95px 288px 100px 360px;
+    background-color: var(--color-whitly);
+    margin: 95px 288px 50px 360px;
     position: relative;
     display: flex; /* Добавляем flex для лучшего контроля */
     justify-content: space-between; /* Распределяем пространство между элементами */

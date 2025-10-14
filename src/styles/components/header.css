@@ -10,7 +10,7 @@
   padding-bottom: 18px;
   padding-left: 361px;
   padding-right: 361px;
-  gap: 340;
+  gap: 340px;
   background-color: var(--color-onyx);
 }
 .social-icons{
@@ -25,13 +25,12 @@
     width: 196px;
     height: 22px;
     gap: 10px;
-    font-family: var(--font-family);
     margin-top: 4px;
     margin-bottom: 4px;
     align-items: center;
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 160%;
     color: var(--color-whitly);
 }
