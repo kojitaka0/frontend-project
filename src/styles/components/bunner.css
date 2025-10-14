@@ -1,6 +1,8 @@
 .bunner__media{
     grid-area: content;
     z-index: 1;
+    max-width: 1912px;
+    margin: 0 auto;
 }
 .bunner_content{
     border-radius: 29px;
