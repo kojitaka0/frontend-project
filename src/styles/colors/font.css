@@ -1,11 +1,11 @@
 :root {
-  --font-family: "Lato", sans-serif;
-  --second-family: "Cabin", sans-serif;
-  --third-family: "Syne", sans-serif;
-  --font3: "Teko", sans-serif;
-  --font4: "Times New Roman", sans-serif;
-  --font5: "Thabit", sans-serif;
-  --font6: "Tenor Sans", sans-serif;
-  --font7: "Poppins", sans-serif;
-  --font8: "Montserrat", sans-serif;
+  --font-family: 'Lato', sans-serif;
+  --second-family: 'Cabin', sans-serif;
+  --third-family: 'Syne', sans-serif;
+  --font3: 'Teko', sans-serif;
+  --font4: 'Times New Roman', sans-serif;
+  --font5: 'Thabit', sans-serif;
+  --font6: 'Tenor Sans', sans-serif;
+  --font7: 'Poppins', sans-serif;
+  --font8: 'Montserrat', sans-serif;
 }

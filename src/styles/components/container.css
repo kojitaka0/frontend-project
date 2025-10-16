@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  padding-left: 8x;
+  padding-left: 8px;
   padding-right: 8px;
   margin-right: auto;
   margin-left: auto;
@@ -16,8 +16,8 @@
 @media (--md-viewport) {
   .container {
     max-width: 768px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 

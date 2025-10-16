@@ -1,7 +1,6 @@
 .nav {
   padding-top: 55px;
   padding-bottom: 55px;
-  padding-right:;
 }
 
 .nav__list {
@@ -10,10 +9,9 @@
   color: var(--color-gray);
   width: 561px;
   height: 32px;
-  
-
 }
-.nav__item{
+
+.nav__item {
   display: flex;
   align-items: center;
   font-family: var(--font-family);

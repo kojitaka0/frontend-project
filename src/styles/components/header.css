@@ -1,60 +1,56 @@
-.page__header{
-   background-color: var(--color-onyx)
+.page__header {
+  background-color: var(--color-onyx);
 }
-.page__header__top{
+
+.page__header__top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 1912px;
-  padding-top: 18px;
-  padding-bottom: 18px;
-  padding-left: 361px;
-  padding-right: 361px;
+  padding: 18px 361px;
   gap: 340px;
   background-color: var(--color-onyx);
 }
-.social-icons{
+
+.social-icons {
   display: flex;
   justify-content: space-between;
-  gap: 42px;
-  height: 20px;
-  width: 152px;
-}
-.work-time{
-    display: flex;
-    width: 196px;
-    height: 22px;
-    gap: 10px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    align-items: center;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 160%;
-    color: var(--color-whitly);
-}
-.address{
-  display: flex;
-    width: 169px;
-    height: 22px;
-    gap: 10px;
-    font-family: var(--font-family);
-    margin-top: 4px;
-    margin-bottom: 4px;
-    align-items: center;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 160%;
-    color: var(--color-whitly);   
-}
-.social-icons{
   gap: 25px;
   width: 160px;
   height: 19px;
 }
-.container-header-nav{
+
+.work-time {
+  display: flex;
+  width: 196px;
+  height: 22px;
+  gap: 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 160%;
+  color: var(--color-whitly);
+}
+
+.address {
+  display: flex;
+  width: 169px;
+  height: 22px;
+  gap: 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: var(--color-whitly);
+}
+
+.container-header-nav {
   display: flex;
   align-items: center;
   background-color: var(--color-eerie-black);
@@ -62,10 +58,9 @@
   height: 139px;
   padding-left: 360px;
   padding-right: 360px;
-  
-
 }
-.logo{
+
+.logo {
   display: flex;
   gap: 11px;
   font-family: var(--second-family);
@@ -75,7 +70,8 @@
   color: var(--color-whitly);
   padding-right: 105px;
 }
-.page{
+
+.page {
   width: 1912px;
   margin: auto;
 }
