@@ -1,0 +1,133 @@
+.footer {
+  color: var(--color-whitly);
+}
+
+.footer__background {
+  background-image: url('public/images/FooterBackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.footer__container {
+  padding: 125px 0 25px;
+  backdrop-filter: blur(43px);
+  background-color: rgb(24 24 24 / 90%);
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding-bottom: 55px;
+}
+
+.footer__block {
+  border-right: 1px solid #707070;
+  padding-right: 165px;
+  padding-bottom: 150px;
+}
+
+.footer__social {
+  display: flex;
+  margin-top: 30px;
+  gap: 25px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer__nav {
+  display: flex;
+  column-gap: 100px;
+}
+
+.footer__content {
+  max-width: 125px;
+  width: 100%;
+}
+
+.footer__title {
+  position: relative;
+  padding-bottom: 15px;
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 116%;
+  color: var(--color-whitly);
+}
+
+.footer__title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 20px;
+  width: 31px;
+  height: 3px;
+  background: var(--color-yellow);
+}
+
+.footer__list {
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  padding-left: 25px;
+}
+
+.footer__item {
+  max-width: 121px;
+}
+
+li.footer__item::marker {
+  content: '•   ';
+  color: var(--color-whitly);
+}
+
+.footer__link {
+  transition:
+    color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out,
+    border 0.3s ease-in-out;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148%;
+  color: var(--color-whitly);
+}
+
+.footer__content--width {
+  max-width: 230px;
+}
+
+.footer__span {
+  display: block;
+  margin-top: 16px;
+}
+
+.footer__path {
+  display: inline-block;
+  border-radius: 42px;
+  margin-top: 16px;
+  padding: 15px 23px;
+  background: var(--color-whitly);
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: var(--color-onyx);
+}
+
+.footer__description {
+  width: 100%;
+  display: inline-block;
+  padding-top: 20px;
+  border-top: 1px solid #707070;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148%;
+  text-align: center;
+  color: var(--color-whitly);
+}
