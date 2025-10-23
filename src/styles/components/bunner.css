@@ -1,5 +1,5 @@
-.bunner__background{
-  background-image: url(public/images/Photo.png);
+.bunner__background {
+  background-image: url('public/images/Photo.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -7,10 +7,9 @@
   padding: 195px 0;
 }
 
-.page__bunner{
+.page__bunner {
   max-width: 1200px;
 }
-
 
 .bunner__media {
   grid-area: content;

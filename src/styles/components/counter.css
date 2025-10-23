@@ -3,11 +3,10 @@
   justify-content: center;
   column-gap: 135px;
   flex-wrap: nowrap;
-  -webkit-box-pack: center;
   margin-bottom: 150px;
 }
 
-.statistics__item{
+.statistics__item {
   display: flex;
   align-items: center;
   flex-direction: column;

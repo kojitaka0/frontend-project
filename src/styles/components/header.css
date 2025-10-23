@@ -1,14 +1,17 @@
-.header{
+.header {
   position: relative;
 }
+
 .page__header {
   background-color: var(--color-onyx);
 }
-.header_container{
+
+.header_container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .page__header__top {
   background-color: var(--color-night-black);
   padding: 16px 0;
@@ -52,17 +55,18 @@
   color: var(--color-whitly);
 }
 
-.header__bot{
+.header__bot {
   background-color: var(--color-onyx);
   padding: 40px 0;
 }
 
-.phone{
+.phone {
   border-radius: 42px;
   padding: 8px 41px 8px 10px;
   background: var(--color-whitly);
 }
-.phone__link{
+
+.phone__link {
   display: flex;
   align-items: center;
   gap: 12px;
