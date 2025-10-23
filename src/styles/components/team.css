@@ -23,7 +23,6 @@
 }
 
 .team__title {
-  padding-bottom: 22px;
   border-radius: 20px;
   padding: 0 12px;
   background: var(--color-yellow);
@@ -66,10 +65,4 @@
 .team__text {
   text-align: center;
   margin-bottom: 27px;
-}
-
-.team__phone {
-  margin-top: 18px;
-  background: var(--color-yellow);
-  padding: 8px 10px;
 }
