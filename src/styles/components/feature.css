@@ -1,0 +1,123 @@
+.feature{
+    background-color: var(--color-light-smoke);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.feature__container{
+    flex-direction: column;
+    align-items: start;
+}
+
+.feature__header{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 34px;
+}
+
+.feature__block{
+    max-width: 588px;
+}
+
+.feature__title{
+    display: inline-block;
+    margin-bottom: 8px;
+    background: var(--color-yellow);
+    border-radius: 20px;
+    padding: 0px 17px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-onyx);
+}
+
+.feature__title__desc{
+    margin-bottom: 11px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 116%;
+    color: var(--color-onyx);
+}
+.feature__desc{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+    color: var(--color-monsoon-gray);
+}
+.get{
+    background: var(--color-onyx);
+    border-radius: 42px;
+    padding: 15px 34px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--color-whitly);
+}
+
+.feature__list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    align-items: start;
+}
+
+.card__item{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-whitly);
+    border-radius: 20px;
+    padding: 36px 23px;
+    border: 1px solid var(--color-light-gray);
+}
+
+.card__article{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card__top{
+    margin-bottom: 22px;
+}
+
+.card__bot{
+    display: flex;  
+    flex-direction: column;
+    height: 100%;
+}
+
+.card__title{
+    margin-bottom: 10px;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 116%;
+    color: var(--color-onyx);
+}
+
+.card__text{
+    margin-bottom: 22px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+    color: var(--color-monsoon-gray);
+}
+
+.card__link{
+    display: inline-flex;
+    align-items: center;
+    column-gap: 10px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--color-onyx);
+}

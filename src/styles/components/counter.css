@@ -1,29 +1,16 @@
 .counter_content {
-  width: 895px;
-  height: 91px;
   display: flex;
-  justify-content: space-between;
-  gap: 135px;
+  justify-content: center;
+  column-gap: 135px;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  margin-bottom: 150px;
 }
 
-.succesful_work {
-  width: 126px;
-  height: 91px;
-}
-
-.team_member {
-  width: 117px;
-  height: 91px;
-}
-
-.happy_customers {
-  width: 138px;
-  height: 91px;
-}
-
-.creative_idea {
-  width: 109px;
-  height: 91px;
+.statistics__item{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .number {

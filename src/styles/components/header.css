@@ -1,32 +1,28 @@
+.header{
+  position: relative;
+}
 .page__header {
   background-color: var(--color-onyx);
 }
-
-.page__header__top {
+.header_container{
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 1912px;
-  padding: 18px 361px;
-  gap: 340px;
-  background-color: var(--color-onyx);
+  justify-content: space-between;
+}
+.page__header__top {
+  background-color: var(--color-night-black);
+  padding: 16px 0;
 }
 
 .social-icons {
   display: flex;
   justify-content: space-between;
   gap: 25px;
-  width: 160px;
-  height: 19px;
 }
 
 .work-time {
   display: flex;
-  width: 196px;
-  height: 22px;
   gap: 10px;
-  margin-top: 4px;
-  margin-bottom: 4px;
   align-items: center;
   font-family: var(--font-family);
   font-weight: 400;
@@ -37,11 +33,7 @@
 
 .address {
   display: flex;
-  width: 169px;
-  height: 22px;
   gap: 10px;
-  margin-top: 4px;
-  margin-bottom: 4px;
   align-items: center;
   font-family: var(--font-family);
   font-weight: 400;
@@ -50,28 +42,33 @@
   color: var(--color-whitly);
 }
 
-.container-header-nav {
-  display: flex;
-  align-items: center;
-  background-color: var(--color-eerie-black);
-  width: 1912px;
-  height: 139px;
-  padding-left: 360px;
-  padding-right: 360px;
-}
-
 .logo {
-  display: flex;
+  display: block;
   gap: 11px;
   font-family: var(--second-family);
   font-weight: 600;
   font-size: 26px;
   line-height: 105%;
   color: var(--color-whitly);
-  padding-right: 105px;
 }
 
-.page {
-  width: 1912px;
-  margin: auto;
+.header__bot{
+  background-color: var(--color-onyx);
+  padding: 40px 0;
+}
+
+.phone{
+  border-radius: 42px;
+  padding: 8px 41px 8px 10px;
+  background: var(--color-whitly);
+}
+.phone__link{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: var(--color-charcoal-gray);
 }

@@ -1,3 +1,17 @@
+.bunner__background{
+  background-image: url(public/images/Photo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding: 195px 0;
+}
+
+.page__bunner{
+  max-width: 1200px;
+}
+
+
 .bunner__media {
   grid-area: content;
   z-index: 1;
@@ -7,24 +21,10 @@
 .bunner_content {
   border-radius: 29px;
   padding: 48px 60px 58px;
-  width: 788px;
-  height: 267px;
+  width: 100%;
+  max-width: 788px;
   backdrop-filter: blur(5px);
   background: rgb(255 255 255 / 85%);
-  grid-area: content;
-  z-index: 2;
-  margin: 178px 771px 175px 361px;
-}
-
-.bunner_title {
-  width: 668px;
-  height: 161px;
-}
-
-.bunner_image {
-  object-fit: cover;
-  height: auto;
-  width: 100%;
 }
 
 .bunner_head {
@@ -49,10 +49,4 @@
   line-height: 116%;
   color: var(--color-onyx);
   padding-top: 21px;
-}
-
-.page__bunner {
-  display: grid;
-  grid-template-areas: 'content';
-  grid-template-columns: 1fr;
 }
