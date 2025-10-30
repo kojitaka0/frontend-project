@@ -1,4 +1,4 @@
-.text1{
+.text1 {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 45px;
@@ -7,7 +7,7 @@
   margin-bottom: 14px;
 }
 
-.text2{
+.text2 {
   display: inline-block;
   margin-bottom: 19px;
   font-family: var(--font-family);
@@ -17,7 +17,7 @@
   color: var(--color-monsoon-gray);
 }
 
-.text3{
+.text3 {
   display: flex;
   margin-bottom: 19px;
   font-family: var(--second-family);
@@ -71,7 +71,7 @@
   color: var(--color-monsoon-gray);
 }
 
-.cta-text2{
+.cta-text2 {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
