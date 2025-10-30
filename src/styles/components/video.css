@@ -9,44 +9,6 @@
   margin-top: 150px;
 }
 
-.video__title {
-  margin-bottom: 22px;
-  background: var(--color-apple-green);
-  border-radius: 20px;
-  padding: 0 11px;
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 148%;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--color-whitly);
-}
-
-.title__desc {
-  max-width: 478px;
-  width: 100%;
-  margin-bottom: 11px;
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 116%;
-  text-align: center;
-  color: var(--color-onyx);
-}
-
-.video__desc {
-  max-width: 732px;
-  width: 100%;
-  margin-bottom: 44px;
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 148%;
-  text-align: center;
-  color: var(--color-monsoon-gray);
-}
-
 .video__block {
   position: relative;
   display: flex;

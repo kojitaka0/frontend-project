@@ -22,18 +22,3 @@
 .cta-span {
   color: var(--color-dim-gray);
 }
-
-.cta__desc {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 148%;
-  color: var(--color-whitly);
-}
-
-.cta__phone {
-  margin-top: 18px;
-  background: var(--color-yellow);
-  padding: 16px 21px;
-  border-radius: 42px;
-}
