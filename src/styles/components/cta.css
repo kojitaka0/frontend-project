@@ -19,29 +19,7 @@
   justify-content: center;
 }
 
-.cta__title {
-  display: inline-block;
-  border-radius: 20px;
-  padding: 0 15px;
-  background: var(--color-apple-green);
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 148%;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--color-whitly);
-}
-
-.cta__title__desc {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 130%;
-  color: var(--color-whitly);
-}
-
-.cta__span {
+.cta-span {
   color: var(--color-dim-gray);
 }
 

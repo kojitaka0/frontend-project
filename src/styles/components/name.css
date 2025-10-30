@@ -1,0 +1,9 @@
+.team-name{
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 116%;
+  text-align: center;
+  color: var(--color-onyx);
+  margin-bottom: 10px;
+}

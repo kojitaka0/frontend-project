@@ -1,0 +1,10 @@
+
+.logo {
+  display: block;
+  gap: 11px;
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 105%;
+  color: var(--color-whitly);
+}

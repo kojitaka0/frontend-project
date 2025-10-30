@@ -1,0 +1,10 @@
+.get {
+  background: var(--color-onyx);
+  border-radius: 42px;
+  padding: 15px 34px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: var(--color-whitly);
+}

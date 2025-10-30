@@ -12,50 +12,12 @@
   justify-content: space-between;
 }
 
-.page__header__top {
+.page__header-top {
   background-color: var(--color-night-black);
   padding: 16px 0;
 }
 
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-}
-
-.work-time {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 160%;
-  color: var(--color-whitly);
-}
-
-.address {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 160%;
-  color: var(--color-whitly);
-}
-
-.logo {
-  display: block;
-  gap: 11px;
-  font-family: var(--second-family);
-  font-weight: 600;
-  font-size: 26px;
-  line-height: 105%;
-  color: var(--color-whitly);
-}
-
-.header__bot {
+.header-bot {
   background-color: var(--color-onyx);
   padding: 40px 0;
 }

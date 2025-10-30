@@ -1,0 +1,73 @@
+.title-green{
+  display: inline-block;
+  border-radius: 20px;
+  padding: 0 11px;
+  background-color: var(--color-apple-green);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 15.5px;
+  line-height: 148%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-whitly);
+  margin-bottom: 19px;
+}
+
+.title{
+  border-radius: 20px;
+  padding: 0 15px;
+  width: 118px;
+  height: 24px;
+  background-color: var(--color-yellow);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-onyx);
+}
+
+.feature-title {
+  display: inline-block;
+  margin-bottom: 8px;
+  background: var(--color-yellow);
+  border-radius: 20px;
+  padding: 0 17px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-onyx);
+}
+
+.title-cta{
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 130%;
+  color: var(--color-whitly);
+}
+
+.footer-title {
+  position: relative;
+  padding-bottom: 15px;
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 116%;
+  color: var(--color-whitly);
+}
+
+.footer-title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 20px;
+  width: 31px;
+  height: 3px;
+  background: var(--color-yellow);
+}

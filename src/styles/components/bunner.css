@@ -17,35 +17,11 @@
   width: 1912px;
 }
 
-.bunner_content {
+.bunner__content {
   border-radius: 29px;
   padding: 48px 60px 58px;
   width: 100%;
   max-width: 788px;
   backdrop-filter: blur(5px);
   background: rgb(255 255 255 / 85%);
-}
-
-.bunner_head {
-  border-radius: 20px;
-  padding: 0 15px;
-  width: 118px;
-  height: 24px;
-  background-color: var(--color-yellow);
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 148%;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--color-onyx);
-}
-
-.bunner_foater {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 116%;
-  color: var(--color-onyx);
-  padding-top: 21px;
 }

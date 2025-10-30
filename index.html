@@ -30,7 +30,7 @@
     <script type="module" src="/src/index.js"></script>
     <div class="page">
       <header class="page__header">
-        <div class="page__header__top">
+        <div class="page__header-top">
           <div class="header_container container">
             <div class="work-time">
               <svg width="13.3" height="13.3" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -107,7 +107,7 @@
             </div>
           </div>
         </div>
-        <div class="header__bot">
+        <div class="header-bot">
           <div class="header_container container">
             <div class="logo">
               <svg width="183" height="34" viewBox="0 0 183 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -124,8 +124,8 @@
                 ></path>
               </svg>
             </div>
-            <nav class="nav nav">
-              <ul class="nav__list list-reset d-flex">
+            <nav class="nav">
+              <ul class="nav__list">
                 <li class="nav__item">
                   <a href="#" class="nav__link nav__link--active"><h2 style="color: #5ab612">Home</h2> </a>
                 </li>
@@ -167,12 +167,12 @@
         <section class="bunner">
           <div class="bunner__background">
             <div class="page__bunner container">
-              <div class="bunner_content">
-                <div class="bunner_title">
-                  <div class="bunner_head">
+              <div class="bunner__content">
+                <div class="bunner__title">
+                  <div class="title">
                     <p>Services</p>
                   </div>
-                  <div class="bunner_foater">
+                  <div class="description description-bunner">
                     <p>Creative Services For Boost Your Business Growth</p>
                   </div>
                 </div>
@@ -181,28 +181,28 @@
           </div>
         </section>
         <section class="about">
-          <div class="about_content container">
+          <div class="about__content container">
             <div class="about__left">
               <article>
-                <span class="about_content_title_text">OUR VISION</span>
-                <h2 class="about_content_text1">Turn your ideas into reality.</h2>
-                <span class="about_content_text2"
+                <p class="title-green">OUR VISION</p>
+                <h2 class="text1">Turn your ideas into reality.</h2>
+                <p class="text2"
                   >Capitalize on low hanging fruit to identify a ballpark value added activity beta test. Override the
-                  digital divide with additional from DevOps.</span
+                  digital divide with additional from DevOps.</p
                 >
-                <div class="about_content_plus_text1">
+                <div class="text3">
                   <img src="public\images\Correct.svg" alt="about_content_image" />
-                  <span>
+                  <p>
                     Bring to the table win-win survival strategies to ensure proactive domination. At the end of the
                     day.
-                  </span>
+                  </p>
                 </div>
-                <div class="about_content_plus_text2">
+                <div class="text3">
                   <img src="public\images\Correct.svg" alt="about_content_image" />
-                  <span>
+                  <p>
                     Capitalize on low hanging fruit to identify a ballpark value added activity to beta test override
                     the digital.
-                  </span>
+                  </p>
                 </div>
               </article>
             </div>
@@ -213,7 +213,7 @@
             </div>
           </div>
         </section>
-        <ul class="counter_content">
+        <ul class="counter__content">
           <li class="statistics__item">
             <h3 class="number">1128+</h3>
             <span class="description">Successful Work</span>
@@ -235,19 +235,19 @@
           <div class="feature__container container">
             <div class="feature__header">
               <div class="feature__block">
-                <span class="feature__title">Growing with our Clients</span>
-                <h2 class="feature__title__desc">Our core values & principles</h2>
-                <span class="feature__desc"
+                <p class="feature-title">Growing with our Clients<p>
+                <h2 class="text1">Our core values & principles</h2>
+                <p class="text2"
                   >Capitalize on low hanging fruit to identify a ballpark value added activity beta test. Override the
-                  digital divide with additional from DevOps.</span
+                  digital divide with additional from DevOps.</p
                 >
               </div>
               <a href="#" class="get">Get in touch</a>
             </div>
             <ul class="feature__list">
-              <li class="card__item">
+              <li class="card">
                 <article class="card__article">
-                  <div class="card__top">
+                  <div class="card-top">
                     <svg width="54" height="53" viewBox="0 0 54 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="26.8889" cy="26.3889" r="26.3889" fill="#181818" />
                       <path
@@ -273,12 +273,12 @@
                       />
                     </svg>
                   </div>
-                  <div class="card__bot">
-                    <h3 class="card__title">Creative Ideas</h3>
-                    <p class="card__text">
+                  <div class="card-bot">
+                    <h3 class="card-title">Creative Ideas</h3>
+                    <p class="card-text">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget accumsan augue Donec aliquam.
                     </p>
-                    <a href="#" class="card__link"
+                    <a href="#" class="card-link"
                       >Read More
                       <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -293,9 +293,9 @@
                   </div>
                 </article>
               </li>
-              <li class="card__item">
+              <li class="card">
                 <article class="card__article">
-                  <div class="card__top">
+                  <div class="card-top">
                     <svg width="54" height="53" viewBox="0 0 54 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="26.8889" cy="26.3889" r="26.3889" fill="#181818" />
                       <path
@@ -321,10 +321,10 @@
                       />
                     </svg>
                   </div>
-                  <div class="card__bot">
-                    <h3 class="card__title">Best Features</h3>
-                    <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="#" class="card__link"
+                  <div class="card-bot">
+                    <h3 class="card-title">Best Features</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="card-link"
                       >Read More
                       <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -339,9 +339,9 @@
                   </div>
                 </article>
               </li>
-              <li class="card__item">
+              <li class="card">
                 <article class="card__article">
-                  <div class="card__top">
+                  <div class="card-top">
                     <svg width="54" height="53" viewBox="0 0 54 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="26.8889" cy="26.3889" r="26.3889" fill="#181818" />
                       <path
@@ -367,10 +367,10 @@
                       />
                     </svg>
                   </div>
-                  <div class="card__bot">
-                    <h3 class="card__title">Easy Solutions</h3>
-                    <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="#" class="card__link"
+                  <div class="card-bot">
+                    <h3 class="card-title">Easy Solutions</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="card-link"
                       >Read More
                       <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -385,9 +385,9 @@
                   </div>
                 </article>
               </li>
-              <li class="card__item">
+              <li class="card">
                 <article class="card__article">
-                  <div class="card__top">
+                  <div class="card-top">
                     <svg width="54" height="53" viewBox="0 0 54 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="26.8889" cy="26.3889" r="26.3889" fill="#181818" />
                       <path
@@ -413,12 +413,12 @@
                       />
                     </svg>
                   </div>
-                  <div class="card__bot">
-                    <h3 class="card__title">Creative Ideas</h3>
-                    <p class="card__text">
+                  <div class="card-bot">
+                    <h3 class="card-title">Creative Ideas</h3>
+                    <p class="card-text">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget accumsan augue Donec aliquam.
                     </p>
-                    <a href="#" class="card__link"
+                    <a href="#" class="card-link"
                       >Read More
                       <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -438,9 +438,9 @@
         </section>
         <section class="video">
           <div class="video__container container">
-            <span class="video__title">Our History</span>
-            <h2 class="title__desc">Better Website Means A User Experience</h2>
-            <p class="video__desc">
+            <p class="title-green">Our History</p>
+            <h2 class="text1 title-text1">Better Website Means A User Experience</h2>
+            <p class="text2 video-text2">
               Ippsum is the result of synergy between our teams and our customers. Our company culture is focused on
               excellent productivity, customer satisfaction, respect for team and individual achievements.
             </p>
@@ -470,28 +470,28 @@
         <section class="team">
           <div class="team__container container">
             <div class="team__header">
-              <span class="team__title">Our team</span>
-              <h2 class="team__title__desc">We champion the bold to achieve the extraordinary</h2>
-              <p class="team__desc">
+              <span class="title">Our team</span>
+              <h2 class="text1 team-text1">We champion the bold to achieve the extraordinary</h2>
+              <p class="text2 team-text2">
                 Ippsum is the result of synergy between our teams and our customers. Our company culture is focused on
                 excellent productivity, customer satisfaction, respect for team.
               </p>
             </div>
             <ul class="team__list">
-              <li class="card__item team__item">
+              <li class="card team-card">
                 <article class="card__article">
-                  <div class="card__top">
-                    <picture class="card__picture">
+                  <div class="card-top">
+                    <picture class="card-picture">
                       <img src="public/images/TeamPerson1.jpg" alt="Image article" class="card__img" />
                     </picture>
                   </div>
-                  <div class="card__bot">
-                    <h3 class="card__title team__card__title">Sarah Jasmine</h3>
-                    <p class="card__text team__text">
+                  <div class="card-bot">
+                    <h3 class="team-name">Sarah Jasmine</h3>
+                    <p class="text2 team__text">
                       Leverage agile frameworks to provide a robust synopsis for high level overviews.
                     </p>
                     <ul class="social-icons">
-                      <li class="social__item">
+                      <li class="social-item">
                         <a href="https://instagram.com/" class="social__link"
                           ><svg
                             width="24"
@@ -511,7 +511,7 @@
                           </svg>
                         </a>
                       </li>
-                      <li class="social__item">
+                      <li class="social-item">
                         <a href="https://facebook.com" class="social__link"
                           ><svg
                             width="25"
@@ -529,7 +529,7 @@
                           </svg>
                         </a>
                       </li>
-                      <li class="social__item">
+                      <li class="social-item">
                         <a href="https://twitter.com" class="social__link"
                           ><svg
                             width="24"
@@ -549,20 +549,20 @@
                   </div>
                 </article>
               </li>
-              <li class="card__item team__item">
+              <li class="card team-card">
                 <article class="card__article">
-                  <div class="card__top">
-                    <picture class="card__picture">
+                  <div class="card-top">
+                    <picture class="card-picture">
                       <img src="public/images/TeamPerson2.jpg" alt="Image article" class="card__img" />
                     </picture>
                   </div>
-                  <div class="card__bot">
-                    <h3 class="card__title team__card__title">John Carter</h3>
-                    <p class="card__text team__text">
+                  <div class="card-bot">
+                    <h3 class="team-name">John Carter</h3>
+                    <p class="text2 team__text">
                       Leverage agile frameworks to provide a robust synopsis for high level overviews.
                     </p>
                     <ul class="social-icons">
-                      <li class="social__item">
+                      <li class="social-item">
                         <a href="https://instagram.com/" class="social__link"
                           ><svg
                             width="24"
@@ -582,7 +582,7 @@
                           </svg>
                         </a>
                       </li>
-                      <li class="social__item">
+                      <li class="social-item">
                         <a href="https://facebook.com" class="social__link"
                           ><svg
                             width="25"
@@ -600,7 +600,7 @@
                           </svg>
                         </a>
                       </li>
-                      <li class="social__item">
+                      <li class="social-item">
                         <a href="https://twitter.com" class="social__link"
                           ><svg
                             width="24"
@@ -620,20 +620,20 @@
                   </div>
                 </article>
               </li>
-              <li class="card__item team__item">
+              <li class="card team-card">
                 <article class="card__article">
-                  <div class="card__top">
-                    <picture class="card__picture">
+                  <div class="card-top">
+                    <picture class="card-picture">
                       <img src="public/images/TeamPerson3.jpg" alt="Image article" class="card__img" />
                     </picture>
                   </div>
-                  <div class="card__bot">
-                    <h3 class="card__title team__card__title">Daisy Stella</h3>
-                    <p class="card__text team__text">
+                  <div class="card-bot">
+                    <h3 class="team-name">Daisy Stella</h3>
+                    <p class="text2 team__text">
                       Leverage agile frameworks to provide a robust synopsis for high level overviews.
                     </p>
                     <ul class="social-icons">
-                      <li class="social__item">
+                      <li class="social-item">
                         <a href="https://instagram.com/" class="social__link"
                           ><svg
                             width="24"
@@ -653,7 +653,7 @@
                           </svg>
                         </a>
                       </li>
-                      <li class="social__item">
+                      <li class="social-item">
                         <a href="https://facebook.com" class="social__link"
                           ><svg
                             width="25"
@@ -671,7 +671,7 @@
                           </svg>
                         </a>
                       </li>
-                      <li class="social__item">
+                      <li class="social-item">
                         <a href="https://twitter.com" class="social__link"
                           ><svg
                             width="24"
@@ -697,17 +697,17 @@
         <section class="cta">
           <div class="cta__container container">
             <div class="cta__content">
-              <span class="cta__title">Book Now</span>
-              <h2 class="cta__title__desc">
+              <span class="title-green">Book Now</span>
+              <h2 class="title-cta">
                 Better Consult,
-                <span class="cta__span">Better</span>
+                <span class="cta-span">Better</span>
                 Results
               </h2>
-              <p class="cta__desc">
+              <p class="text2 cta-text2">
                 Our software development agency has a growth up to 30% per each year. If you are result-oriented, not
                 afraid to take initiative – drop us a note and join our team!
               </p>
-              <div class="phone cta__phone">
+              <div class="phone cta-phone">
                 <a href="tel:8001234654" class="phone__link">
                   <svg
                     class="phone__icon"
@@ -738,8 +738,8 @@
       <footer class="footer">
         <div class="footer__background">
           <div class="footer__container">
-            <div class="footer__top container">
-              <div class="footer__block">
+            <div class="footer-top container">
+              <div class="footer-block">
                 <a href="#" class="logo">
                   <svg width="183" height="34" viewBox="0 0 183 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -755,8 +755,8 @@
                     ></path>
                   </svg>
                 </a>
-                <ul class="social-icons footer__social">
-                  <li class="social__item">
+                <ul class="social-icons footer-social">
+                  <li class="social-item">
                     <a href="https://instagram.com" target="_blank">
                       <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -770,7 +770,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social__item">
+                  <li class="social-item">
                     <a href="https://facebook.com" target="_blank">
                       <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -782,7 +782,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social__item">
+                  <li class="social-item">
                     <a href="https://twitter.com" target="_blank">
                       <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -792,7 +792,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social__item">
+                  <li class="social-item">
                     <a href="https://	linkedin.com" target="_blank">
                       <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -804,59 +804,59 @@
                   </li>
                 </ul>
               </div>
-              <nav class="footer__nav">
+              <nav class="footer-nav">
                 <div class="footer__content">
-                  <h2 class="footer__title">Product</h2>
-                  <ul class="footer__list">
-                    <li class="footer__item">
+                  <h2 class="footer-title">Product</h2>
+                  <ul class="footer-list">
+                    <li class="footer-item">
                       <a href="#" class="footer__link">Service</a>
                     </li>
-                    <li class="footer__item">
+                    <li class="footer-item">
                       <a href="#" class="footer__link">FAQ</a>
                     </li>
-                    <li class="footer__item">
+                    <li class="footer-item">
                       <a href="#" class="footer__link">Single Service</a>
                     </li>
-                    <li class="footer__item">
+                    <li class="footer-item">
                       <a href="#" class="footer__link">Get Quote</a>
                     </li>
-                    <li class="footer__item">
+                    <li class="footer-item">
                       <a href="#" class="footer__link">Service</a>
                     </li>
                   </ul>
                 </div>
                 <div class="footer__content">
-                  <h2 class="footer__title">Company</h2>
-                  <ul class="footer__list">
-                    <li class="footer__item">
+                  <h2 class="footer-title">Company</h2>
+                  <ul class="footer-list">
+                    <li class="footer-item">
                       <a href="#" class="footer__link">About</a>
                     </li>
-                    <li class="footer__item">
+                    <li class="footer-item">
                       <a href="#" class="footer__link">News</a>
                     </li>
-                    <li class="footer__item">
+                    <li class="footer-item">
                       <a href="#" class="footer__link">Contacts</a>
                     </li>
-                    <li class="footer__item">
+                    <li class="footer-item">
                       <a href="#" class="footer__link">Testimonials</a>
                     </li>
-                    <li class="footer__item">
+                    <li class="footer-item">
                       <a href="#" class="footer__link">Our team</a>
                     </li>
-                    <li class="footer__item">
+                    <li class="footer-item">
                       <a href="#" class="footer__link">Our approach</a>
                     </li>
                   </ul>
                 </div>
                 <div class="footer__content footer__content--width">
-                  <h2 class="footer__title">Address</h2>
+                  <h2 class="footer-title">Address</h2>
                   <span class="footer__span">1700 W Blancke St, kiyev port south USA, America </span>
                   <a href="#" class="footer__path">Book an Appoinment</a>
                 </div>
               </nav>
             </div>
-            <div class="footer__bot container">
-              <span class="footer__description">
+            <div class="footer-bot container">
+              <span class="footer-description">
                 ©2022 Consultalk. All rights reserved | Terms of Service | Privacy Policy
               </span>
             </div>

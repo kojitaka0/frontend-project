@@ -3,7 +3,7 @@
   margin-bottom: 50px;
 }
 
-.about_content {
+.about__content {
   display: flex;
   column-gap: 74px;
 }

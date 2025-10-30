@@ -1,0 +1,5 @@
+.statistics__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

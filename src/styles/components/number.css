@@ -1,0 +1,8 @@
+.number {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 116%;
+  text-align: center;
+  color: #181818;
+}
