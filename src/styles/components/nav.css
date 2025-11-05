@@ -33,7 +33,7 @@
   content: url('public/images/Ellipse2.svg');
 }
 
-.footer-nav {
+.footer__nav {
   display: flex;
   column-gap: 100px;
 }

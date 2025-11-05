@@ -7,23 +7,23 @@
   border: 1px solid var(--color-light-gray);
 }
 
-.card__article {
+.card__inner {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
-.card-top {
+.card__top {
   margin-bottom: 22px;
 }
 
-.card-bot {
+.card__body {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
-.card-title {
+.card__title {
   margin-bottom: 10px;
   font-family: var(--second-family);
   font-weight: 600;
@@ -32,7 +32,7 @@
   color: var(--color-onyx);
 }
 
-.card-text {
+.card__text {
   margin-bottom: 22px;
   font-family: var(--font-family);
   font-weight: 400;
@@ -41,7 +41,7 @@
   color: var(--color-monsoon-gray);
 }
 
-.card-link {
+.card__link {
   display: inline-flex;
   align-items: center;
   column-gap: 10px;
@@ -52,7 +52,7 @@
   color: var(--color-onyx);
 }
 
-.team-card {
+.team__item {
   border: none;
   background-color: var(--color-light-smoke);
   padding: 0;

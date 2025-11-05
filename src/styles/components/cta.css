@@ -3,7 +3,7 @@
   margin-bottom: 150px;
 }
 
-.cta__container {
+.cta__inner {
   max-width: 1200px;
   display: flex;
   column-gap: 60px;
@@ -19,6 +19,6 @@
   justify-content: center;
 }
 
-.cta-span {
+.cta__highlight {
   color: var(--color-dim-gray);
 }

@@ -1,13 +1,19 @@
-.social-icons {
+.header__social {
   display: flex;
   justify-content: center;
   gap: 25px;
 }
 
-.footer-social {
+.footer__social {
   display: flex;
   margin-top: 30px;
   gap: 25px;
   align-items: center;
   justify-content: space-around;
+}
+
+.social--team{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
 }

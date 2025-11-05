@@ -1,4 +1,4 @@
-.bunner__background {
+.banner__background {
   background-image: url('public/images/Photo.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,7 +7,7 @@
   padding: 195px 0;
 }
 
-.page__bunner {
+.banner__inner {
   max-width: 1200px;
 }
 
@@ -17,7 +17,7 @@
   width: 1912px;
 }
 
-.bunner__content {
+.banner__content {
   border-radius: 29px;
   padding: 48px 60px 58px;
   width: 100%;

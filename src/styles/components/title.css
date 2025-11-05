@@ -28,7 +28,7 @@
   color: var(--color-onyx);
 }
 
-.feature-title {
+.feature__kicker {
   display: inline-block;
   margin-bottom: 8px;
   background: var(--color-yellow);
@@ -43,7 +43,7 @@
   color: var(--color-onyx);
 }
 
-.title-cta {
+.cta__title {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 45px;
@@ -51,7 +51,7 @@
   color: var(--color-whitly);
 }
 
-.footer-title {
+.footer__title {
   position: relative;
   padding-bottom: 15px;
   font-family: var(--second-family);
@@ -61,7 +61,7 @@
   color: var(--color-whitly);
 }
 
-.footer-title::after {
+.footer__title::after {
   content: '';
   position: absolute;
   left: 0;
@@ -71,3 +71,4 @@
   height: 3px;
   background: var(--color-yellow);
 }
+

@@ -1,18 +1,15 @@
 .header {
+  background-color: var(--color-onyx);
   position: relative;
 }
 
-.page__header {
-  background-color: var(--color-onyx);
-}
-
-.header_container {
+.header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.page__header-top {
+.header__top {
   background-color: var(--color-night-black);
   padding: 16px 0;
 }

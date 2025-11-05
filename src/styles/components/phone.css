@@ -1,4 +1,4 @@
-.phone {
+.header__phone {
   border-radius: 42px;
   padding: 8px 41px 8px 10px;
   background: var(--color-whitly);
@@ -15,9 +15,28 @@
   color: var(--color-charcoal-gray);
 }
 
-.cta-phone {
+.phone--cta {
   margin-top: 18px;
   background: var(--color-yellow);
   padding: 16px 21px;
   border-radius: 42px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: var(--color-charcoal-gray);
+}
+
+.phone--header{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: var(--color-charcoal-gray);
 }

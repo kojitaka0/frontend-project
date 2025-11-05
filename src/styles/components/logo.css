@@ -1,4 +1,4 @@
-.logo {
+.header__logo {
   display: block;
   gap: 11px;
   font-family: var(--second-family);

@@ -17,16 +17,18 @@
   color: var(--color-monsoon-gray);
 }
 
-.text3 {
+.about__feature {
   display: flex;
   margin-bottom: 19px;
+  gap: 20px;
+  align-items: start;
+}
+.about__feature-text{
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 116%;
   color: var(--color-monsoon-gray);
-  gap: 20px;
-  align-items: start;
 }
 
 .title-text1 {
@@ -53,22 +55,8 @@
   color: var(--color-monsoon-gray);
 }
 
-.team-text1 {
-  padding-top: 22px;
-  padding-bottom: 11px;
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 116%;
-  color: var(--color-onyx);
-}
-
-.team-text2 {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 148%;
-  color: var(--color-monsoon-gray);
+.team__text{
+  text-align: center;
 }
 
 .cta-text2 {

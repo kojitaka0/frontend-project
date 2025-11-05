@@ -2,14 +2,14 @@
   padding-bottom: 150px;
 }
 
-.video__container {
+.video__inner {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: 150px;
 }
 
-.video__block {
+.video__media {
   position: relative;
   display: flex;
   max-width: 1061px;
@@ -23,7 +23,7 @@
   object-fit: cover;
 }
 
-.play__button {
+.video__play-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,6 +51,6 @@
   transform: translate(-225%, 115%);
 }
 
-.video__pattern__background {
+.video__pattern {
   transform: translate(140%, -75%);
 }
