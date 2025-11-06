@@ -8,7 +8,6 @@
 @import './styles/components/nav.css';
 @import './styles/components/banner.css';
 @import './styles/components/about.css';
-@import './styles/components/counter.css';
 @import './styles/components/feature.css';
 @import './styles/components/video.css';
 @import './styles/components/team.css';
@@ -19,11 +18,10 @@
 @import './styles/components/social-icons.css';
 @import './styles/components/logo.css';
 @import './styles/components/text.css';
-@import './styles/components/description.css';
 @import './styles/components/statistics.css';
-@import './styles/components/number.css';
 @import './styles/components/title.css';
 @import './styles/components/get.css';
 @import './styles/components/card.css';
 @import './styles/components/name.css';
 @import './styles/components/phone.css';
+@import './styles/components/section-space.css';

@@ -1,4 +1,4 @@
-.title-green {
+.title--green {
   display: inline-block;
   border-radius: 20px;
   padding: 0 11px;
@@ -13,7 +13,7 @@
   margin-bottom: 19px;
 }
 
-.title {
+.title--yellow {
   border-radius: 20px;
   padding: 0 15px;
   width: 118px;
@@ -43,7 +43,7 @@
   color: var(--color-onyx);
 }
 
-.cta__title {
+.title--cta {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 45px;
@@ -58,7 +58,7 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 116%;
-  color: var(--color-whitly);
+  color: var(--color-white);
 }
 
 .footer__title::after {
@@ -71,4 +71,3 @@
   height: 3px;
   background: var(--color-yellow);
 }
-

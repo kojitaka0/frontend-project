@@ -45,8 +45,9 @@
                   stroke="#FFCC4A"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                /></svg>
-                <p class="header__text">Monday - Friday 8AM - 9PM</p>
+                />
+              </svg>
+              <p class="header__text">Monday - Friday 8AM - 9PM</p>
             </div>
             <div class="header__info header__info--address">
               <svg width="12" height="15" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -96,7 +97,7 @@
                   />
                 </svg>
               </a>
-              <a class="social__link" href="https://	linkedin.com" target="_blank">
+              <a class="social__link" href="https://linkedin.com" target="_blank">
                 <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M17.2783 0.620117H2.21773C1.39479 0.620117 0.675781 1.21224 0.675781 2.02551V17.1195C0.675781 17.9372 1.39479 18.6659 2.21773 18.6659H17.2739C18.1012 18.6659 18.7215 17.9324 18.7215 17.1195V2.02551C18.7264 1.21224 18.1012 0.620117 17.2783 0.620117ZM6.26957 15.6622H3.68435V7.62413H6.26957V15.6622ZM5.06638 6.40201H5.04785C4.22049 6.40201 3.68475 5.78612 3.68475 5.01515C3.68475 4.23008 4.23458 3.62869 5.08048 3.62869C5.92637 3.62869 6.44398 4.22565 6.46251 5.01515C6.46211 5.78612 5.92637 6.40201 5.06638 6.40201ZM15.7178 15.6622H13.1326V11.2671C13.1326 10.2142 12.7564 9.49477 11.8211 9.49477C11.1065 9.49477 10.6835 9.97814 10.4954 10.449C10.4249 10.6182 10.406 10.8486 10.406 11.0838V15.6622H7.82078V7.62413H10.406V8.74273C10.7822 8.20699 11.3699 7.43602 12.7374 7.43602C14.4345 7.43602 15.7182 8.55462 15.7182 10.9662L15.7178 15.6622Z"
@@ -127,7 +128,9 @@
             <nav class="nav">
               <ul class="nav__list">
                 <li class="nav__item">
-                  <a href="#" class="nav__link nav__link--active"><h2 style="color: #5ab612">Home</h2> </a>
+                  <a href="#" class="nav__link nav__link--active nav__link--home"
+                    ><span class="nav__link-text">Home</span></a
+                  >
                 </li>
                 <li class="nav__item">
                   <a href="#" class="nav__link">Pages</a>
@@ -166,14 +169,16 @@
       <div class="page__content">
         <section class="banner">
           <div class="banner__background">
-            <div class="banner__inner container">
-              <div class="banner__content">
-                <div class="banner__heading">
-                  <div class="title title--small">
-                    <p>Services</p>
-                  </div>
-                  <div class="banner__description description description--banner">
-                    <p>Creative Services For Boost Your Business Growth</p>
+            <div class="section-space section-space--lg">
+              <div class="banner__inner container">
+                <div class="banner__content">
+                  <div class="banner__heading">
+                    <div class="banner__kicker title--yellow">
+                      <p>Services</p>
+                    </div>
+                    <div class="banner__description description--banner">
+                      <p>Creative Services For Boost Your Business Growth</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -181,556 +186,570 @@
           </div>
         </section>
         <section class="about">
-          <div class="about__inner container">
-            <div class="about__col about__col--left">
-              <article class="about__article">
-                <p class="about__kicker title-green">OUR VISION</p>
-                <h2 class="about__title">Turn your ideas into reality.</h2>
-                <p class="about__lead">
-                  Capitalize on low hanging fruit to identify a ballpark value added activity beta test. Override the
-                  digital divide with additional from DevOps.
-                </p>
-                <div class="about__feature">
-                  <img class="about__icon" src="public\images\Correct.svg" alt="about_content_image" />
-                  <p class="about__feature-text">
-                    Bring to the table win-win survival strategies to ensure proactive domination. At the end of the
-                    day.
+          <div class="section-space section-space--lg">
+            <div class="about__inner container">
+              <div class="about__col about__col--left">
+                <article class="about__article">
+                  <p class="about__kicker title--green">OUR VISION</p>
+                  <h2 class="about__title">Turn your ideas into reality.</h2>
+                  <p class="about__lead">
+                    Capitalize on low hanging fruit to identify a ballpark value added activity beta test. Override the
+                    digital divide with additional from DevOps.
                   </p>
-                </div>
-                <div class="about__feature">
-                  <img class="about__icon" src="public\images\Correct.svg" alt="about_content_image" />
-                  <p class="about__feature-text">
-                    Capitalize on low hanging fruit to identify a ballpark value added activity to beta test override
-                    the digital.
-                  </p>
-                </div>
-              </article>
-            </div>
-            <div class="about__col about__col--right">
-              <picture class="about__media">
-                <img class="about__img" src="public/images/About.jpg" alt="" />
-              </picture>
+                  <div class="about__feature">
+                    <img class="about__icon" src="public\images\Correct.svg" alt="about_content_image" />
+                    <p class="about__feature-text">
+                      Bring to the table win-win survival strategies to ensure proactive domination. At the end of the
+                      day.
+                    </p>
+                  </div>
+                  <div class="about__feature">
+                    <img class="about__icon" src="public\images\Correct.svg" alt="about_content_image" />
+                    <p class="about__feature-text">
+                      Capitalize on low hanging fruit to identify a ballpark value added activity to beta test override
+                      the digital.
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="about__col about__col--right">
+                <picture class="about__media">
+                  <img class="about__img" src="public/images/About.jpg" alt="" />
+                </picture>
+              </div>
             </div>
           </div>
         </section>
-        <ul class="statistics container">
-          <li class="statistics__item">
-            <h3 class="statistics__number">1128+</h3>
-            <span class="statistics__label">Successful Work</span>
-          </li>
-          <li class="statistics__item">
-            <h3 class="statistics__number">908+</h3>
-            <span class="statistics__label">Team member</span>
-          </li>
-          <li class="statistics__item">
-            <h3 class="statistics__number">258+</h3>
-            <span class="statistics__label">Happy Customers</span>
-          </li>
-          <li class="statistics__item">
-            <h3 class="statistics__number">564+</h3>
-            <span class="statistics__label">Creative Idea</span>
-          </li>
-        </ul>
+        <div class="section-space">
+          <ul class="statistics container">
+            <li class="statistics__item">
+              <h3 class="statistics__number">1128+</h3>
+              <span class="statistics__label">Successful Work</span>
+            </li>
+            <li class="statistics__item">
+              <h3 class="statistics__number">908+</h3>
+              <span class="statistics__label">Team member</span>
+            </li>
+            <li class="statistics__item">
+              <h3 class="statistics__number">258+</h3>
+              <span class="statistics__label">Happy Customers</span>
+            </li>
+            <li class="statistics__item">
+              <h3 class="statistics__number">564+</h3>
+              <span class="statistics__label">Creative Idea</span>
+            </li>
+          </ul>
+        </div>
         <section class="feature">
-          <div class="feature__inner container">
-            <div class="feature__header">
-              <div class="feature__info">
-                <p class="feature__kicker feature-title">Growing with our Clients</p>
-                <p></p>
-                <h2 class="feature__title">Our core values & principles</h2>
-                <p class="feature__lead">
-                  Capitalize on low hanging fruit to identify a ballpark value added activity beta test. Override the
-                  digital divide with additional from DevOps.
-                </p>
+          <div class="section-space">
+            <div class="feature__inner container">
+              <div class="feature__header">
+                <div class="feature__info">
+                  <p class="feature__kicker">Growing with our Clients</p>
+                  <p></p>
+                  <h2 class="feature__title">Our core values & principles</h2>
+                  <p class="feature__lead">
+                    Capitalize on low hanging fruit to identify a ballpark value added activity beta test. Override the
+                    digital divide with additional from DevOps.
+                  </p>
+                </div>
+                <a href="#" class="feature__cta get">Get in touch</a>
               </div>
-              <a href="#" class="feature__cta get">Get in touch</a>
+              <ul class="feature__list">
+                <li class="feature__item card">
+                  <article class="card__inner">
+                    <div class="card__top">
+                      <svg width="54" height="53" viewBox="0 0 54 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="26.8889" cy="26.3889" r="26.3889" fill="#181818" />
+                        <path
+                          d="M15.5518 32.0488L26.7056 38.5552L37.8595 32.0488"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M15.5518 26.4717L26.7056 32.9781L37.8595 26.4717"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M15.5518 20.8948L26.7056 27.4013L37.8595 20.8948L26.7056 14.3884L15.5518 20.8948Z"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    <div class="card__body">
+                      <h3 class="card__title">Creative Ideas</h3>
+                      <p class="card__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget accumsan augue Donec
+                        aliquam.
+                      </p>
+                      <a href="#" class="card__link"
+                        >Read More
+                        <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M1.5 7.27783H14.568M14.568 7.27783L9.22198 1.93188M14.568 7.27783L9.22198 12.6239"
+                            stroke="#141414"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </article>
+                </li>
+                <li class="feature__item card">
+                  <article class="card__inner">
+                    <div class="card__top">
+                      <svg width="54" height="53" viewBox="0 0 54 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="26.8889" cy="26.3889" r="26.3889" fill="#181818" />
+                        <path
+                          d="M15.5518 32.0488L26.7056 38.5552L37.8595 32.0488"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M15.5518 26.4717L26.7056 32.9781L37.8595 26.4717"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M15.5518 20.8948L26.7056 27.4013L37.8595 20.8948L26.7056 14.3884L15.5518 20.8948Z"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    <div class="card__body">
+                      <h3 class="card__title">Best Features</h3>
+                      <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      <a href="#" class="card__link"
+                        >Read More
+                        <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M1.5 7.27783H14.568M14.568 7.27783L9.22198 1.93188M14.568 7.27783L9.22198 12.6239"
+                            stroke="#141414"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </article>
+                </li>
+                <li class="feature__item card">
+                  <article class="card__inner">
+                    <div class="card__top">
+                      <svg width="54" height="53" viewBox="0 0 54 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="26.8889" cy="26.3889" r="26.3889" fill="#181818" />
+                        <path
+                          d="M15.5518 32.0488L26.7056 38.5552L37.8595 32.0488"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M15.5518 26.4717L26.7056 32.9781L37.8595 26.4717"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M15.5518 20.8948L26.7056 27.4013L37.8595 20.8948L26.7056 14.3884L15.5518 20.8948Z"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    <div class="card__body">
+                      <h3 class="card__title">Easy Solutions</h3>
+                      <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      <a href="#" class="card__link"
+                        >Read More
+                        <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M1.5 7.27783H14.568M14.568 7.27783L9.22198 1.93188M14.568 7.27783L9.22198 12.6239"
+                            stroke="#141414"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </article>
+                </li>
+                <li class="feature__item card">
+                  <article class="card__inner">
+                    <div class="card__top">
+                      <svg width="54" height="53" viewBox="0 0 54 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="26.8889" cy="26.3889" r="26.3889" fill="#181818" />
+                        <path
+                          d="M15.5518 32.0488L26.7056 38.5552L37.8595 32.0488"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M15.5518 26.4717L26.7056 32.9781L37.8595 26.4717"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M15.5518 20.8948L26.7056 27.4013L37.8595 20.8948L26.7056 14.3884L15.5518 20.8948Z"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    <div class="card__body">
+                      <h3 class="card__title">Creative Ideas</h3>
+                      <p class="card__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget accumsan augue Donec
+                        aliquam.
+                      </p>
+                      <a href="#" class="card__link"
+                        >Read More
+                        <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M1.5 7.27783H14.568M14.568 7.27783L9.22198 1.93188M14.568 7.27783L9.22198 12.6239"
+                            stroke="#141414"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </article>
+                </li>
+              </ul>
             </div>
-            <ul class="feature__list">
-              <li class="feature__item card">
-                <article class="card__inner">
-                  <div class="card__top">
-                    <svg width="54" height="53" viewBox="0 0 54 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="26.8889" cy="26.3889" r="26.3889" fill="#181818" />
-                      <path
-                        d="M15.5518 32.0488L26.7056 38.5552L37.8595 32.0488"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M15.5518 26.4717L26.7056 32.9781L37.8595 26.4717"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M15.5518 20.8948L26.7056 27.4013L37.8595 20.8948L26.7056 14.3884L15.5518 20.8948Z"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </div>
-                  <div class="card__body">
-                    <h3 class="card__title">Creative Ideas</h3>
-                    <p class="card__text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget accumsan augue Donec aliquam.
-                    </p>
-                    <a href="#" class="card__link"
-                      >Read More
-                      <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M1.5 7.27783H14.568M14.568 7.27783L9.22198 1.93188M14.568 7.27783L9.22198 12.6239"
-                          stroke="#141414"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                    </a>
-                  </div>
-                </article>
-              </li>
-              <li class="feature__item card">
-                <article class="card__inner">
-                  <div class="card__top">
-                    <svg width="54" height="53" viewBox="0 0 54 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="26.8889" cy="26.3889" r="26.3889" fill="#181818" />
-                      <path
-                        d="M15.5518 32.0488L26.7056 38.5552L37.8595 32.0488"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M15.5518 26.4717L26.7056 32.9781L37.8595 26.4717"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M15.5518 20.8948L26.7056 27.4013L37.8595 20.8948L26.7056 14.3884L15.5518 20.8948Z"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </div>
-                  <div class="card__body">
-                    <h3 class="card__title">Best Features</h3>
-                    <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="#" class="card__link"
-                      >Read More
-                      <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M1.5 7.27783H14.568M14.568 7.27783L9.22198 1.93188M14.568 7.27783L9.22198 12.6239"
-                          stroke="#141414"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                    </a>
-                  </div>
-                </article>
-              </li>
-              <li class="feature__item card">
-                <article class="card__inner">
-                  <div class="card__top">
-                    <svg width="54" height="53" viewBox="0 0 54 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="26.8889" cy="26.3889" r="26.3889" fill="#181818" />
-                      <path
-                        d="M15.5518 32.0488L26.7056 38.5552L37.8595 32.0488"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M15.5518 26.4717L26.7056 32.9781L37.8595 26.4717"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M15.5518 20.8948L26.7056 27.4013L37.8595 20.8948L26.7056 14.3884L15.5518 20.8948Z"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </div>
-                  <div class="card__body">
-                    <h3 class="card__title">Easy Solutions</h3>
-                    <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="#" class="card__link"
-                      >Read More
-                      <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M1.5 7.27783H14.568M14.568 7.27783L9.22198 1.93188M14.568 7.27783L9.22198 12.6239"
-                          stroke="#141414"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                    </a>
-                  </div>
-                </article>
-              </li>
-              <li class="feature__item card">
-                <article class="card__inner">
-                  <div class="card__top">
-                    <svg width="54" height="53" viewBox="0 0 54 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="26.8889" cy="26.3889" r="26.3889" fill="#181818" />
-                      <path
-                        d="M15.5518 32.0488L26.7056 38.5552L37.8595 32.0488"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M15.5518 26.4717L26.7056 32.9781L37.8595 26.4717"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M15.5518 20.8948L26.7056 27.4013L37.8595 20.8948L26.7056 14.3884L15.5518 20.8948Z"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </div>
-                  <div class="card__body">
-                    <h3 class="card__title">Creative Ideas</h3>
-                    <p class="card__text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget accumsan augue Donec aliquam.
-                    </p>
-                    <a href="#" class="card__link"
-                      >Read More
-                      <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M1.5 7.27783H14.568M14.568 7.27783L9.22198 1.93188M14.568 7.27783L9.22198 12.6239"
-                          stroke="#141414"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                    </a>
-                  </div>
-                </article>
-              </li>
-            </ul>
           </div>
         </section>
         <section class="video">
-          <div class="video__inner container">
-            <p class="title-green">Our History</p>
-            <h2 class="video__title title-text1">Better Website Means A User Experience</h2>
-            <p class="video__lead video-text2">
-              Ippsum is the result of synergy between our teams and our customers. Our company culture is focused on
-              excellent productivity, customer satisfaction, respect for team and individual achievements.
-            </p>
-            <div class="video__media">
-              <picture class="video__picture">
-                <img src="public/images/VideoPreview.jpg" alt="Работа" class="video__preview" />
-                <img src="public/images/BackgroundVideo.svg" alt="BackgroundVideo" class="video__background" />
-                <img
-                  src="public/images/BackgroundPatternVideo.svg"
-                  alt="BackgroundVideoPattern"
-                  class="video__pattern"
-                />
-              </picture>
-              <a
-                href="https://www.youtube.com/watch?v=WujKJpxaUHk"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="video__play-button play__button"
-              >
-                <svg class="video__play">
-                  <use xlink:href="public/images/PlayButton.svg"></use>
-                </svg>
-              </a>
+          <div class="section-space">
+            <div class="video__inner container">
+              <p class="video__kicker title--green">Our History</p>
+              <h2 class="video__title title--text1">Better Website Means A User Experience</h2>
+              <p class="video__lead text--video">
+                Ippsum is the result of synergy between our teams and our customers. Our company culture is focused on
+                excellent productivity, customer satisfaction, respect for team and individual achievements.
+              </p>
+              <div class="video__media">
+                <picture class="video__picture">
+                  <img src="public/images/VideoPreview.jpg" alt="Работа" class="video__preview" />
+                  <img src="public/images/BackgroundVideo.svg" alt="BackgroundVideo" class="video__background" />
+                  <img
+                    src="public/images/BackgroundPatternVideo.svg"
+                    alt="BackgroundVideoPattern"
+                    class="video__pattern"
+                  />
+                </picture>
+                <a
+                  href="https://www.youtube.com/watch?v=WujKJpxaUHk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="video__play-button play__button"
+                >
+                  <svg class="video__play">
+                    <use xlink:href="public/images/PlayButton.svg"></use>
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
         </section>
         <section class="team">
-          <div class="team__inner container">
-            <div class="team__header">
-              <span class="team__kicker title">Our team</span>
-              <h2 class="team__title text1 team-text1">We champion the bold to achieve the extraordinary</h2>
-              <p class="team__lead text2 team-text2">
-                Ippsum is the result of synergy between our teams and our customers. Our company culture is focused on
-                excellent productivity, customer satisfaction, respect for team.
-              </p>
+          <div class="section-space">
+            <div class="team__inner container">
+              <div class="team__header">
+                <span class="team__kicker title--yellow">Our team</span>
+                <h2 class="team__title text--1">We champion the bold to achieve the extraordinary</h2>
+                <p class="team__lead text--2">
+                  Ippsum is the result of synergy between our teams and our customers. Our company culture is focused on
+                  excellent productivity, customer satisfaction, respect for team.
+                </p>
+              </div>
+              <ul class="team__list">
+                <li class="team__item team-card card">
+                  <article class="card__inner">
+                    <div class="card__top">
+                      <picture class="card__picture">
+                        <img src="public/images/TeamPerson1.jpg" alt="" class="card__img" />
+                      </picture>
+                    </div>
+                    <div class="card__body">
+                      <h3 class="team__name">Sarah Jasmine</h3>
+                      <p class="team__text text--2">
+                        Leverage agile frameworks to provide a robust synopsis for high level overviews.
+                      </p>
+                      <ul class="social social--team">
+                        <li class="social__item">
+                          <a href="https://instagram.com/" class="social__link"
+                            ><svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M17.0042 1.92487C18.3295 1.92868 19.5994 2.43698 20.5365 3.33876C21.4736 4.24054 22.0019 5.46252 22.0058 6.73783V16.3627C22.0019 17.638 21.4736 18.86 20.5365 19.7618C19.5994 20.6635 18.3295 21.1718 17.0042 21.1757H7.00197C5.67667 21.1718 4.40679 20.6635 3.46965 19.7618C2.53252 18.86 2.00429 17.638 2.00033 16.3627V6.73783C2.00429 5.46252 2.53252 4.24054 3.46965 3.33876C4.40679 2.43698 5.67667 1.92868 7.00197 1.92487H17.0042ZM17.0042 0H7.00197C3.15081 0 0 3.03194 0 6.73783V16.3627C0 20.0686 3.15081 23.1005 7.00197 23.1005H17.0042C20.8553 23.1005 24.0062 20.0686 24.0062 16.3627V6.73783C24.0062 3.03194 20.8553 0 17.0042 0Z"
+                                fill="var(--color-onyx)"
+                              />
+                              <path
+                                d="M18.504 6.7384C18.2073 6.7384 17.9172 6.65372 17.6704 6.49508C17.4237 6.33643 17.2314 6.11094 17.1178 5.84713C17.0043 5.58331 16.9746 5.29301 17.0324 5.01295C17.0903 4.73288 17.2332 4.47562 17.4431 4.2737C17.6529 4.07179 17.9202 3.93428 18.2113 3.87857C18.5023 3.82286 18.804 3.85146 19.0782 3.96073C19.3523 4.07001 19.5867 4.25506 19.7515 4.49249C19.9164 4.72992 20.0044 5.00906 20.0044 5.29461C20.0048 5.48433 19.9663 5.67226 19.891 5.84761C19.8158 6.02296 19.7053 6.18228 19.5659 6.31643C19.4265 6.45058 19.2609 6.55691 19.0787 6.62933C18.8965 6.70174 18.7012 6.7388 18.504 6.7384ZM12.0025 7.70058C12.7939 7.70058 13.5675 7.92639 14.2255 8.34946C14.8835 8.77253 15.3963 9.37386 15.6991 10.0774C16.002 10.7809 16.0812 11.5551 15.9268 12.302C15.7725 13.0489 15.3914 13.7349 14.8318 14.2734C14.2722 14.8118 13.5593 15.1785 12.7831 15.3271C12.007 15.4757 11.2024 15.3994 10.4713 15.108C9.7402 14.8166 9.1153 14.3231 8.67564 13.6899C8.23598 13.0568 8.00131 12.3123 8.00131 11.5508C8.00245 10.53 8.42437 9.55132 9.17449 8.8295C9.92462 8.10767 10.9417 7.70167 12.0025 7.70058ZM12.0025 5.7757C10.8155 5.7757 9.65519 6.11441 8.66824 6.74899C7.68129 7.38357 6.91206 8.28552 6.45782 9.34079C6.00358 10.3961 5.88473 11.5572 6.1163 12.6775C6.34787 13.7978 6.91946 14.8268 7.75879 15.6345C8.59812 16.4421 9.66749 16.9922 10.8317 17.215C11.9959 17.4378 13.2026 17.3235 14.2992 16.8864C15.3958 16.4493 16.3332 15.709 16.9926 14.7593C17.6521 13.8096 18.0041 12.693 18.0041 11.5508C18.0041 10.0192 17.3718 8.55025 16.2462 7.4672C15.1207 6.38415 13.5942 5.7757 12.0025 5.7757Z"
+                                fill="var(--color-onyx)"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="social__item">
+                          <a href="https://facebook.com" class="social__link"
+                            ><svg
+                              width="25"
+                              height="24"
+                              viewBox="0 0 25 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M24.8063 11.6175C24.8063 5.20194 19.2525 0 12.4031 0C5.55372 0 0 5.20194 0 11.6175C0 17.4159 4.53489 22.2221 10.4651 23.0944V14.9767H7.31508V11.6175H10.4651V9.05802C10.4651 6.1469 12.3173 4.53757 15.1501 4.53757C16.5072 4.53757 17.927 4.76473 17.927 4.76473V7.62398H16.3622C14.8223 7.62398 14.3406 8.51915 14.3406 9.43922V11.6175H17.7802L17.2309 14.9767H14.3411V23.0955C20.2714 22.2236 24.8063 17.4174 24.8063 11.6175Z"
+                                fill="var(--color-onyx)"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="social__item">
+                          <a href="https://twitter.com" class="social__link"
+                            ><svg
+                              width="24"
+                              height="19"
+                              viewBox="0 0 24 19"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M23.1572 2.19355C22.2886 2.57072 21.3695 2.81921 20.429 2.93116C21.4174 2.35283 22.1607 1.43404 22.5195 0.347118C21.585 0.893138 20.5644 1.27625 19.5013 1.48005C19.0536 1.01122 18.5152 0.63826 17.9188 0.383828C17.3225 0.129396 16.6805 -0.00118949 16.032 8.16405e-06C13.4066 8.16405e-06 11.2819 2.09231 11.2819 4.67154C11.2801 5.0303 11.3212 5.38799 11.4045 5.73697C9.52182 5.64878 7.67833 5.16886 5.99193 4.32792C4.30553 3.48699 2.81336 2.30355 1.61088 0.853321C1.18902 1.56399 0.965914 2.37484 0.964885 3.20114C0.964885 4.82099 1.81061 6.25282 3.08763 7.09167C2.33103 7.07372 1.58993 6.87361 0.927255 6.50833V6.56618C0.927255 8.83204 2.56756 10.717 4.73855 11.1461C4.3303 11.2549 3.9096 11.31 3.48709 11.31C3.18729 11.3105 2.88818 11.2815 2.59409 11.2232C3.19763 13.0793 4.9542 14.4292 7.03498 14.4678C5.3442 15.7699 3.26836 16.4736 1.13374 16.4685C0.754838 16.4679 0.376289 16.4454 0 16.401C2.17156 17.7866 4.69583 18.5196 7.27234 18.5126C16.0219 18.5126 20.802 11.392 20.802 5.21631C20.802 5.01383 20.7966 4.81134 20.787 4.61368C21.7148 3.9542 22.5174 3.13466 23.1572 2.19355Z"
+                                fill="var(--color-onyx)"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </article>
+                </li>
+                <li class="team__item team-card card">
+                  <article class="card__inner">
+                    <div class="card__top">
+                      <picture class="card__picture">
+                        <img src="public/images/TeamPerson2.jpg" alt="" class="card__img" />
+                      </picture>
+                    </div>
+                    <div class="card__body">
+                      <h3 class="team__name">John Carter</h3>
+                      <p class="team__text text--2">
+                        Leverage agile frameworks to provide a robust synopsis for high level overviews.
+                      </p>
+                      <ul class="social social--team">
+                        <li class="social__item">
+                          <a href="https://instagram.com/" class="social__link"
+                            ><svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M17.0042 1.92487C18.3295 1.92868 19.5994 2.43698 20.5365 3.33876C21.4736 4.24054 22.0019 5.46252 22.0058 6.73783V16.3627C22.0019 17.638 21.4736 18.86 20.5365 19.7618C19.5994 20.6635 18.3295 21.1718 17.0042 21.1757H7.00197C5.67667 21.1718 4.40679 20.6635 3.46965 19.7618C2.53252 18.86 2.00429 17.638 2.00033 16.3627V6.73783C2.00429 5.46252 2.53252 4.24054 3.46965 3.33876C4.40679 2.43698 5.67667 1.92868 7.00197 1.92487H17.0042ZM17.0042 0H7.00197C3.15081 0 0 3.03194 0 6.73783V16.3627C0 20.0686 3.15081 23.1005 7.00197 23.1005H17.0042C20.8553 23.1005 24.0062 20.0686 24.0062 16.3627V6.73783C24.0062 3.03194 20.8553 0 17.0042 0Z"
+                                fill="var(--color-onyx)"
+                              />
+                              <path
+                                d="M18.504 6.7384C18.2073 6.7384 17.9172 6.65372 17.6704 6.49508C17.4237 6.33643 17.2314 6.11094 17.1178 5.84713C17.0043 5.58331 16.9746 5.29301 17.0324 5.01295C17.0903 4.73288 17.2332 4.47562 17.4431 4.2737C17.6529 4.07179 17.9202 3.93428 18.2113 3.87857C18.5023 3.82286 18.804 3.85146 19.0782 3.96073C19.3523 4.07001 19.5867 4.25506 19.7515 4.49249C19.9164 4.72992 20.0044 5.00906 20.0044 5.29461C20.0048 5.48433 19.9663 5.67226 19.891 5.84761C19.8158 6.02296 19.7053 6.18228 19.5659 6.31643C19.4265 6.45058 19.2609 6.55691 19.0787 6.62933C18.8965 6.70174 18.7012 6.7388 18.504 6.7384ZM12.0025 7.70058C12.7939 7.70058 13.5675 7.92639 14.2255 8.34946C14.8835 8.77253 15.3963 9.37386 15.6991 10.0774C16.002 10.7809 16.0812 11.5551 15.9268 12.302C15.7725 13.0489 15.3914 13.7349 14.8318 14.2734C14.2722 14.8118 13.5593 15.1785 12.7831 15.3271C12.007 15.4757 11.2024 15.3994 10.4713 15.108C9.7402 14.8166 9.1153 14.3231 8.67564 13.6899C8.23598 13.0568 8.00131 12.3123 8.00131 11.5508C8.00245 10.53 8.42437 9.55132 9.17449 8.8295C9.92462 8.10767 10.9417 7.70167 12.0025 7.70058ZM12.0025 5.7757C10.8155 5.7757 9.65519 6.11441 8.66824 6.74899C7.68129 7.38357 6.91206 8.28552 6.45782 9.34079C6.00358 10.3961 5.88473 11.5572 6.1163 12.6775C6.34787 13.7978 6.91946 14.8268 7.75879 15.6345C8.59812 16.4421 9.66749 16.9922 10.8317 17.215C11.9959 17.4378 13.2026 17.3235 14.2992 16.8864C15.3958 16.4493 16.3332 15.709 16.9926 14.7593C17.6521 13.8096 18.0041 12.693 18.0041 11.5508C18.0041 10.0192 17.3718 8.55025 16.2462 7.4672C15.1207 6.38415 13.5942 5.7757 12.0025 5.7757Z"
+                                fill="var(--color-onyx)"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="social__item">
+                          <a href="https://facebook.com" class="social__link"
+                            ><svg
+                              width="25"
+                              height="24"
+                              viewBox="0 0 25 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M24.8063 11.6175C24.8063 5.20194 19.2525 0 12.4031 0C5.55372 0 0 5.20194 0 11.6175C0 17.4159 4.53489 22.2221 10.4651 23.0944V14.9767H7.31508V11.6175H10.4651V9.05802C10.4651 6.1469 12.3173 4.53757 15.1501 4.53757C16.5072 4.53757 17.927 4.76473 17.927 4.76473V7.62398H16.3622C14.8223 7.62398 14.3406 8.51915 14.3406 9.43922V11.6175H17.7802L17.2309 14.9767H14.3411V23.0955C20.2714 22.2236 24.8063 17.4174 24.8063 11.6175Z"
+                                fill="var(--color-onyx)"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="social__item">
+                          <a href="https://twitter.com" class="social__link"
+                            ><svg
+                              width="24"
+                              height="19"
+                              viewBox="0 0 24 19"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M23.1572 2.19355C22.2886 2.57072 21.3695 2.81921 20.429 2.93116C21.4174 2.35283 22.1607 1.43404 22.5195 0.347118C21.585 0.893138 20.5644 1.27625 19.5013 1.48005C19.0536 1.01122 18.5152 0.63826 17.9188 0.383828C17.3225 0.129396 16.6805 -0.00118949 16.032 8.16405e-06C13.4066 8.16405e-06 11.2819 2.09231 11.2819 4.67154C11.2801 5.0303 11.3212 5.38799 11.4045 5.73697C9.52182 5.64878 7.67833 5.16886 5.99193 4.32792C4.30553 3.48699 2.81336 2.30355 1.61088 0.853321C1.18902 1.56399 0.965914 2.37484 0.964885 3.20114C0.964885 4.82099 1.81061 6.25282 3.08763 7.09167C2.33103 7.07372 1.58993 6.87361 0.927255 6.50833V6.56618C0.927255 8.83204 2.56756 10.717 4.73855 11.1461C4.3303 11.2549 3.9096 11.31 3.48709 11.31C3.18729 11.3105 2.88818 11.2815 2.59409 11.2232C3.19763 13.0793 4.9542 14.4292 7.03498 14.4678C5.3442 15.7699 3.26836 16.4736 1.13374 16.4685C0.754838 16.4679 0.376289 16.4454 0 16.401C2.17156 17.7866 4.69583 18.5196 7.27234 18.5126C16.0219 18.5126 20.802 11.392 20.802 5.21631C20.802 5.01383 20.7966 4.81134 20.787 4.61368C21.7148 3.9542 22.5174 3.13466 23.1572 2.19355Z"
+                                fill="var(--color-onyx)"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </article>
+                </li>
+                <li class="team__item team-card card">
+                  <article class="card__inner">
+                    <div class="card__top">
+                      <picture class="card__picture">
+                        <img src="public/images/TeamPerson3.jpg" alt="Image article" class="card__img" />
+                      </picture>
+                    </div>
+                    <div class="card__body">
+                      <h3 class="team__name">Daisy Stella</h3>
+                      <p class="team__text text--2">
+                        Leverage agile frameworks to provide a robust synopsis for high level overviews.
+                      </p>
+                      <ul class="social social--team">
+                        <li class="social__item">
+                          <a href="https://instagram.com/" class="social__link"
+                            ><svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M17.0042 1.92487C18.3295 1.92868 19.5994 2.43698 20.5365 3.33876C21.4736 4.24054 22.0019 5.46252 22.0058 6.73783V16.3627C22.0019 17.638 21.4736 18.86 20.5365 19.7618C19.5994 20.6635 18.3295 21.1718 17.0042 21.1757H7.00197C5.67667 21.1718 4.40679 20.6635 3.46965 19.7618C2.53252 18.86 2.00429 17.638 2.00033 16.3627V6.73783C2.00429 5.46252 2.53252 4.24054 3.46965 3.33876C4.40679 2.43698 5.67667 1.92868 7.00197 1.92487H17.0042ZM17.0042 0H7.00197C3.15081 0 0 3.03194 0 6.73783V16.3627C0 20.0686 3.15081 23.1005 7.00197 23.1005H17.0042C20.8553 23.1005 24.0062 20.0686 24.0062 16.3627V6.73783C24.0062 3.03194 20.8553 0 17.0042 0Z"
+                                fill="var(--color-onyx)"
+                              />
+                              <path
+                                d="M18.504 6.7384C18.2073 6.7384 17.9172 6.65372 17.6704 6.49508C17.4237 6.33643 17.2314 6.11094 17.1178 5.84713C17.0043 5.58331 16.9746 5.29301 17.0324 5.01295C17.0903 4.73288 17.2332 4.47562 17.4431 4.2737C17.6529 4.07179 17.9202 3.93428 18.2113 3.87857C18.5023 3.82286 18.804 3.85146 19.0782 3.96073C19.3523 4.07001 19.5867 4.25506 19.7515 4.49249C19.9164 4.72992 20.0044 5.00906 20.0044 5.29461C20.0048 5.48433 19.9663 5.67226 19.891 5.84761C19.8158 6.02296 19.7053 6.18228 19.5659 6.31643C19.4265 6.45058 19.2609 6.55691 19.0787 6.62933C18.8965 6.70174 18.7012 6.7388 18.504 6.7384ZM12.0025 7.70058C12.7939 7.70058 13.5675 7.92639 14.2255 8.34946C14.8835 8.77253 15.3963 9.37386 15.6991 10.0774C16.002 10.7809 16.0812 11.5551 15.9268 12.302C15.7725 13.0489 15.3914 13.7349 14.8318 14.2734C14.2722 14.8118 13.5593 15.1785 12.7831 15.3271C12.007 15.4757 11.2024 15.3994 10.4713 15.108C9.7402 14.8166 9.1153 14.3231 8.67564 13.6899C8.23598 13.0568 8.00131 12.3123 8.00131 11.5508C8.00245 10.53 8.42437 9.55132 9.17449 8.8295C9.92462 8.10767 10.9417 7.70167 12.0025 7.70058ZM12.0025 5.7757C10.8155 5.7757 9.65519 6.11441 8.66824 6.74899C7.68129 7.38357 6.91206 8.28552 6.45782 9.34079C6.00358 10.3961 5.88473 11.5572 6.1163 12.6775C6.34787 13.7978 6.91946 14.8268 7.75879 15.6345C8.59812 16.4421 9.66749 16.9922 10.8317 17.215C11.9959 17.4378 13.2026 17.3235 14.2992 16.8864C15.3958 16.4493 16.3332 15.709 16.9926 14.7593C17.6521 13.8096 18.0041 12.693 18.0041 11.5508C18.0041 10.0192 17.3718 8.55025 16.2462 7.4672C15.1207 6.38415 13.5942 5.7757 12.0025 5.7757Z"
+                                fill="var(--color-onyx)"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="social__item">
+                          <a href="https://facebook.com" class="social__link"
+                            ><svg
+                              width="25"
+                              height="24"
+                              viewBox="0 0 25 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M24.8063 11.6175C24.8063 5.20194 19.2525 0 12.4031 0C5.55372 0 0 5.20194 0 11.6175C0 17.4159 4.53489 22.2221 10.4651 23.0944V14.9767H7.31508V11.6175H10.4651V9.05802C10.4651 6.1469 12.3173 4.53757 15.1501 4.53757C16.5072 4.53757 17.927 4.76473 17.927 4.76473V7.62398H16.3622C14.8223 7.62398 14.3406 8.51915 14.3406 9.43922V11.6175H17.7802L17.2309 14.9767H14.3411V23.0955C20.2714 22.2236 24.8063 17.4174 24.8063 11.6175Z"
+                                fill="var(--color-onyx)"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="social__item">
+                          <a href="https://twitter.com" class="social__link"
+                            ><svg
+                              width="24"
+                              height="19"
+                              viewBox="0 0 24 19"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M23.1572 2.19355C22.2886 2.57072 21.3695 2.81921 20.429 2.93116C21.4174 2.35283 22.1607 1.43404 22.5195 0.347118C21.585 0.893138 20.5644 1.27625 19.5013 1.48005C19.0536 1.01122 18.5152 0.63826 17.9188 0.383828C17.3225 0.129396 16.6805 -0.00118949 16.032 8.16405e-06C13.4066 8.16405e-06 11.2819 2.09231 11.2819 4.67154C11.2801 5.0303 11.3212 5.38799 11.4045 5.73697C9.52182 5.64878 7.67833 5.16886 5.99193 4.32792C4.30553 3.48699 2.81336 2.30355 1.61088 0.853321C1.18902 1.56399 0.965914 2.37484 0.964885 3.20114C0.964885 4.82099 1.81061 6.25282 3.08763 7.09167C2.33103 7.07372 1.58993 6.87361 0.927255 6.50833V6.56618C0.927255 8.83204 2.56756 10.717 4.73855 11.1461C4.3303 11.2549 3.9096 11.31 3.48709 11.31C3.18729 11.3105 2.88818 11.2815 2.59409 11.2232C3.19763 13.0793 4.9542 14.4292 7.03498 14.4678C5.3442 15.7699 3.26836 16.4736 1.13374 16.4685C0.754838 16.4679 0.376289 16.4454 0 16.401C2.17156 17.7866 4.69583 18.5196 7.27234 18.5126C16.0219 18.5126 20.802 11.392 20.802 5.21631C20.802 5.01383 20.7966 4.81134 20.787 4.61368C21.7148 3.9542 22.5174 3.13466 23.1572 2.19355Z"
+                                fill="var(--color-onyx)"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </article>
+                </li>
+              </ul>
             </div>
-            <ul class="team__list">
-              <li class="team__item team-card card">
-                <article class="card__inner">
-                  <div class="card__top">
-                    <picture class="card__picture">
-                      <img src="public/images/TeamPerson1.jpg" alt="" class="card__img" />
-                    </picture>
-                  </div>
-                  <div class="card__body">
-                    <h3 class="team__name">Sarah Jasmine</h3>
-                    <p class="team__text text2">
-                      Leverage agile frameworks to provide a robust synopsis for high level overviews.
-                    </p>
-                    <ul class="social social--team">
-                      <li class="social__item">
-                        <a href="https://instagram.com/" class="social__link"
-                          ><svg
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M17.0042 1.92487C18.3295 1.92868 19.5994 2.43698 20.5365 3.33876C21.4736 4.24054 22.0019 5.46252 22.0058 6.73783V16.3627C22.0019 17.638 21.4736 18.86 20.5365 19.7618C19.5994 20.6635 18.3295 21.1718 17.0042 21.1757H7.00197C5.67667 21.1718 4.40679 20.6635 3.46965 19.7618C2.53252 18.86 2.00429 17.638 2.00033 16.3627V6.73783C2.00429 5.46252 2.53252 4.24054 3.46965 3.33876C4.40679 2.43698 5.67667 1.92868 7.00197 1.92487H17.0042ZM17.0042 0H7.00197C3.15081 0 0 3.03194 0 6.73783V16.3627C0 20.0686 3.15081 23.1005 7.00197 23.1005H17.0042C20.8553 23.1005 24.0062 20.0686 24.0062 16.3627V6.73783C24.0062 3.03194 20.8553 0 17.0042 0Z"
-                              fill="#181818"
-                            />
-                            <path
-                              d="M18.504 6.7384C18.2073 6.7384 17.9172 6.65372 17.6704 6.49508C17.4237 6.33643 17.2314 6.11094 17.1178 5.84713C17.0043 5.58331 16.9746 5.29301 17.0324 5.01295C17.0903 4.73288 17.2332 4.47562 17.4431 4.2737C17.6529 4.07179 17.9202 3.93428 18.2113 3.87857C18.5023 3.82286 18.804 3.85146 19.0782 3.96073C19.3523 4.07001 19.5867 4.25506 19.7515 4.49249C19.9164 4.72992 20.0044 5.00906 20.0044 5.29461C20.0048 5.48433 19.9663 5.67226 19.891 5.84761C19.8158 6.02296 19.7053 6.18228 19.5659 6.31643C19.4265 6.45058 19.2609 6.55691 19.0787 6.62933C18.8965 6.70174 18.7012 6.7388 18.504 6.7384ZM12.0025 7.70058C12.7939 7.70058 13.5675 7.92639 14.2255 8.34946C14.8835 8.77253 15.3963 9.37386 15.6991 10.0774C16.002 10.7809 16.0812 11.5551 15.9268 12.302C15.7725 13.0489 15.3914 13.7349 14.8318 14.2734C14.2722 14.8118 13.5593 15.1785 12.7831 15.3271C12.007 15.4757 11.2024 15.3994 10.4713 15.108C9.7402 14.8166 9.1153 14.3231 8.67564 13.6899C8.23598 13.0568 8.00131 12.3123 8.00131 11.5508C8.00245 10.53 8.42437 9.55132 9.17449 8.8295C9.92462 8.10767 10.9417 7.70167 12.0025 7.70058ZM12.0025 5.7757C10.8155 5.7757 9.65519 6.11441 8.66824 6.74899C7.68129 7.38357 6.91206 8.28552 6.45782 9.34079C6.00358 10.3961 5.88473 11.5572 6.1163 12.6775C6.34787 13.7978 6.91946 14.8268 7.75879 15.6345C8.59812 16.4421 9.66749 16.9922 10.8317 17.215C11.9959 17.4378 13.2026 17.3235 14.2992 16.8864C15.3958 16.4493 16.3332 15.709 16.9926 14.7593C17.6521 13.8096 18.0041 12.693 18.0041 11.5508C18.0041 10.0192 17.3718 8.55025 16.2462 7.4672C15.1207 6.38415 13.5942 5.7757 12.0025 5.7757Z"
-                              fill="#181818"
-                            />
-                          </svg>
-                        </a>
-                      </li>
-                      <li class="social__item">
-                        <a href="https://facebook.com" class="social__link"
-                          ><svg
-                            width="25"
-                            height="24"
-                            viewBox="0 0 25 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
-                              d="M24.8063 11.6175C24.8063 5.20194 19.2525 0 12.4031 0C5.55372 0 0 5.20194 0 11.6175C0 17.4159 4.53489 22.2221 10.4651 23.0944V14.9767H7.31508V11.6175H10.4651V9.05802C10.4651 6.1469 12.3173 4.53757 15.1501 4.53757C16.5072 4.53757 17.927 4.76473 17.927 4.76473V7.62398H16.3622C14.8223 7.62398 14.3406 8.51915 14.3406 9.43922V11.6175H17.7802L17.2309 14.9767H14.3411V23.0955C20.2714 22.2236 24.8063 17.4174 24.8063 11.6175Z"
-                              fill="#181818"
-                            />
-                          </svg>
-                        </a>
-                      </li>
-                      <li class="social__item">
-                        <a href="https://twitter.com" class="social__link"
-                          ><svg
-                            width="24"
-                            height="19"
-                            viewBox="0 0 24 19"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M23.1572 2.19355C22.2886 2.57072 21.3695 2.81921 20.429 2.93116C21.4174 2.35283 22.1607 1.43404 22.5195 0.347118C21.585 0.893138 20.5644 1.27625 19.5013 1.48005C19.0536 1.01122 18.5152 0.63826 17.9188 0.383828C17.3225 0.129396 16.6805 -0.00118949 16.032 8.16405e-06C13.4066 8.16405e-06 11.2819 2.09231 11.2819 4.67154C11.2801 5.0303 11.3212 5.38799 11.4045 5.73697C9.52182 5.64878 7.67833 5.16886 5.99193 4.32792C4.30553 3.48699 2.81336 2.30355 1.61088 0.853321C1.18902 1.56399 0.965914 2.37484 0.964885 3.20114C0.964885 4.82099 1.81061 6.25282 3.08763 7.09167C2.33103 7.07372 1.58993 6.87361 0.927255 6.50833V6.56618C0.927255 8.83204 2.56756 10.717 4.73855 11.1461C4.3303 11.2549 3.9096 11.31 3.48709 11.31C3.18729 11.3105 2.88818 11.2815 2.59409 11.2232C3.19763 13.0793 4.9542 14.4292 7.03498 14.4678C5.3442 15.7699 3.26836 16.4736 1.13374 16.4685C0.754838 16.4679 0.376289 16.4454 0 16.401C2.17156 17.7866 4.69583 18.5196 7.27234 18.5126C16.0219 18.5126 20.802 11.392 20.802 5.21631C20.802 5.01383 20.7966 4.81134 20.787 4.61368C21.7148 3.9542 22.5174 3.13466 23.1572 2.19355Z"
-                              fill="#181818"
-                            />
-                          </svg>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </article>
-              </li>
-              <li class="team__item team-card card">
-                <article class="card__inner">
-                  <div class="card__top">
-                    <picture class="card__picture">
-                      <img src="public/images/TeamPerson2.jpg" alt="" class="card__img" />
-                    </picture>
-                  </div>
-                  <div class="card__body">
-                    <h3 class="team__name">John Carter</h3>
-                    <p class="team__text text2">
-                      Leverage agile frameworks to provide a robust synopsis for high level overviews.
-                    </p>
-                    <ul class="social social--team">
-                      <li class="social__item">
-                        <a href="https://instagram.com/" class="social__link"
-                          ><svg
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M17.0042 1.92487C18.3295 1.92868 19.5994 2.43698 20.5365 3.33876C21.4736 4.24054 22.0019 5.46252 22.0058 6.73783V16.3627C22.0019 17.638 21.4736 18.86 20.5365 19.7618C19.5994 20.6635 18.3295 21.1718 17.0042 21.1757H7.00197C5.67667 21.1718 4.40679 20.6635 3.46965 19.7618C2.53252 18.86 2.00429 17.638 2.00033 16.3627V6.73783C2.00429 5.46252 2.53252 4.24054 3.46965 3.33876C4.40679 2.43698 5.67667 1.92868 7.00197 1.92487H17.0042ZM17.0042 0H7.00197C3.15081 0 0 3.03194 0 6.73783V16.3627C0 20.0686 3.15081 23.1005 7.00197 23.1005H17.0042C20.8553 23.1005 24.0062 20.0686 24.0062 16.3627V6.73783C24.0062 3.03194 20.8553 0 17.0042 0Z"
-                              fill="#181818"
-                            />
-                            <path
-                              d="M18.504 6.7384C18.2073 6.7384 17.9172 6.65372 17.6704 6.49508C17.4237 6.33643 17.2314 6.11094 17.1178 5.84713C17.0043 5.58331 16.9746 5.29301 17.0324 5.01295C17.0903 4.73288 17.2332 4.47562 17.4431 4.2737C17.6529 4.07179 17.9202 3.93428 18.2113 3.87857C18.5023 3.82286 18.804 3.85146 19.0782 3.96073C19.3523 4.07001 19.5867 4.25506 19.7515 4.49249C19.9164 4.72992 20.0044 5.00906 20.0044 5.29461C20.0048 5.48433 19.9663 5.67226 19.891 5.84761C19.8158 6.02296 19.7053 6.18228 19.5659 6.31643C19.4265 6.45058 19.2609 6.55691 19.0787 6.62933C18.8965 6.70174 18.7012 6.7388 18.504 6.7384ZM12.0025 7.70058C12.7939 7.70058 13.5675 7.92639 14.2255 8.34946C14.8835 8.77253 15.3963 9.37386 15.6991 10.0774C16.002 10.7809 16.0812 11.5551 15.9268 12.302C15.7725 13.0489 15.3914 13.7349 14.8318 14.2734C14.2722 14.8118 13.5593 15.1785 12.7831 15.3271C12.007 15.4757 11.2024 15.3994 10.4713 15.108C9.7402 14.8166 9.1153 14.3231 8.67564 13.6899C8.23598 13.0568 8.00131 12.3123 8.00131 11.5508C8.00245 10.53 8.42437 9.55132 9.17449 8.8295C9.92462 8.10767 10.9417 7.70167 12.0025 7.70058ZM12.0025 5.7757C10.8155 5.7757 9.65519 6.11441 8.66824 6.74899C7.68129 7.38357 6.91206 8.28552 6.45782 9.34079C6.00358 10.3961 5.88473 11.5572 6.1163 12.6775C6.34787 13.7978 6.91946 14.8268 7.75879 15.6345C8.59812 16.4421 9.66749 16.9922 10.8317 17.215C11.9959 17.4378 13.2026 17.3235 14.2992 16.8864C15.3958 16.4493 16.3332 15.709 16.9926 14.7593C17.6521 13.8096 18.0041 12.693 18.0041 11.5508C18.0041 10.0192 17.3718 8.55025 16.2462 7.4672C15.1207 6.38415 13.5942 5.7757 12.0025 5.7757Z"
-                              fill="#181818"
-                            />
-                          </svg>
-                        </a>
-                      </li>
-                      <li class="social__item">
-                        <a href="https://facebook.com" class="social__link"
-                          ><svg
-                            width="25"
-                            height="24"
-                            viewBox="0 0 25 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
-                              d="M24.8063 11.6175C24.8063 5.20194 19.2525 0 12.4031 0C5.55372 0 0 5.20194 0 11.6175C0 17.4159 4.53489 22.2221 10.4651 23.0944V14.9767H7.31508V11.6175H10.4651V9.05802C10.4651 6.1469 12.3173 4.53757 15.1501 4.53757C16.5072 4.53757 17.927 4.76473 17.927 4.76473V7.62398H16.3622C14.8223 7.62398 14.3406 8.51915 14.3406 9.43922V11.6175H17.7802L17.2309 14.9767H14.3411V23.0955C20.2714 22.2236 24.8063 17.4174 24.8063 11.6175Z"
-                              fill="#181818"
-                            />
-                          </svg>
-                        </a>
-                      </li>
-                      <li class="social__item">
-                        <a href="https://twitter.com" class="social__link"
-                          ><svg
-                            width="24"
-                            height="19"
-                            viewBox="0 0 24 19"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M23.1572 2.19355C22.2886 2.57072 21.3695 2.81921 20.429 2.93116C21.4174 2.35283 22.1607 1.43404 22.5195 0.347118C21.585 0.893138 20.5644 1.27625 19.5013 1.48005C19.0536 1.01122 18.5152 0.63826 17.9188 0.383828C17.3225 0.129396 16.6805 -0.00118949 16.032 8.16405e-06C13.4066 8.16405e-06 11.2819 2.09231 11.2819 4.67154C11.2801 5.0303 11.3212 5.38799 11.4045 5.73697C9.52182 5.64878 7.67833 5.16886 5.99193 4.32792C4.30553 3.48699 2.81336 2.30355 1.61088 0.853321C1.18902 1.56399 0.965914 2.37484 0.964885 3.20114C0.964885 4.82099 1.81061 6.25282 3.08763 7.09167C2.33103 7.07372 1.58993 6.87361 0.927255 6.50833V6.56618C0.927255 8.83204 2.56756 10.717 4.73855 11.1461C4.3303 11.2549 3.9096 11.31 3.48709 11.31C3.18729 11.3105 2.88818 11.2815 2.59409 11.2232C3.19763 13.0793 4.9542 14.4292 7.03498 14.4678C5.3442 15.7699 3.26836 16.4736 1.13374 16.4685C0.754838 16.4679 0.376289 16.4454 0 16.401C2.17156 17.7866 4.69583 18.5196 7.27234 18.5126C16.0219 18.5126 20.802 11.392 20.802 5.21631C20.802 5.01383 20.7966 4.81134 20.787 4.61368C21.7148 3.9542 22.5174 3.13466 23.1572 2.19355Z"
-                              fill="#181818"
-                            />
-                          </svg>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </article>
-              </li>
-              <li class="team__item team-card card">
-                <article class="card__inner">
-                  <div class="card__top">
-                    <picture class="card__picture">
-                      <img src="public/images/TeamPerson3.jpg" alt="Image article" class="card__img" />
-                    </picture>
-                  </div>
-                  <div class="card__body">
-                    <h3 class="team__name">Daisy Stella</h3>
-                    <p class="team__text text2">
-                      Leverage agile frameworks to provide a robust synopsis for high level overviews.
-                    </p>
-                    <ul class="social social--team">
-                      <li class="social__item">
-                        <a href="https://instagram.com/" class="social__link"
-                          ><svg
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M17.0042 1.92487C18.3295 1.92868 19.5994 2.43698 20.5365 3.33876C21.4736 4.24054 22.0019 5.46252 22.0058 6.73783V16.3627C22.0019 17.638 21.4736 18.86 20.5365 19.7618C19.5994 20.6635 18.3295 21.1718 17.0042 21.1757H7.00197C5.67667 21.1718 4.40679 20.6635 3.46965 19.7618C2.53252 18.86 2.00429 17.638 2.00033 16.3627V6.73783C2.00429 5.46252 2.53252 4.24054 3.46965 3.33876C4.40679 2.43698 5.67667 1.92868 7.00197 1.92487H17.0042ZM17.0042 0H7.00197C3.15081 0 0 3.03194 0 6.73783V16.3627C0 20.0686 3.15081 23.1005 7.00197 23.1005H17.0042C20.8553 23.1005 24.0062 20.0686 24.0062 16.3627V6.73783C24.0062 3.03194 20.8553 0 17.0042 0Z"
-                              fill="#181818"
-                            />
-                            <path
-                              d="M18.504 6.7384C18.2073 6.7384 17.9172 6.65372 17.6704 6.49508C17.4237 6.33643 17.2314 6.11094 17.1178 5.84713C17.0043 5.58331 16.9746 5.29301 17.0324 5.01295C17.0903 4.73288 17.2332 4.47562 17.4431 4.2737C17.6529 4.07179 17.9202 3.93428 18.2113 3.87857C18.5023 3.82286 18.804 3.85146 19.0782 3.96073C19.3523 4.07001 19.5867 4.25506 19.7515 4.49249C19.9164 4.72992 20.0044 5.00906 20.0044 5.29461C20.0048 5.48433 19.9663 5.67226 19.891 5.84761C19.8158 6.02296 19.7053 6.18228 19.5659 6.31643C19.4265 6.45058 19.2609 6.55691 19.0787 6.62933C18.8965 6.70174 18.7012 6.7388 18.504 6.7384ZM12.0025 7.70058C12.7939 7.70058 13.5675 7.92639 14.2255 8.34946C14.8835 8.77253 15.3963 9.37386 15.6991 10.0774C16.002 10.7809 16.0812 11.5551 15.9268 12.302C15.7725 13.0489 15.3914 13.7349 14.8318 14.2734C14.2722 14.8118 13.5593 15.1785 12.7831 15.3271C12.007 15.4757 11.2024 15.3994 10.4713 15.108C9.7402 14.8166 9.1153 14.3231 8.67564 13.6899C8.23598 13.0568 8.00131 12.3123 8.00131 11.5508C8.00245 10.53 8.42437 9.55132 9.17449 8.8295C9.92462 8.10767 10.9417 7.70167 12.0025 7.70058ZM12.0025 5.7757C10.8155 5.7757 9.65519 6.11441 8.66824 6.74899C7.68129 7.38357 6.91206 8.28552 6.45782 9.34079C6.00358 10.3961 5.88473 11.5572 6.1163 12.6775C6.34787 13.7978 6.91946 14.8268 7.75879 15.6345C8.59812 16.4421 9.66749 16.9922 10.8317 17.215C11.9959 17.4378 13.2026 17.3235 14.2992 16.8864C15.3958 16.4493 16.3332 15.709 16.9926 14.7593C17.6521 13.8096 18.0041 12.693 18.0041 11.5508C18.0041 10.0192 17.3718 8.55025 16.2462 7.4672C15.1207 6.38415 13.5942 5.7757 12.0025 5.7757Z"
-                              fill="#181818"
-                            />
-                          </svg>
-                        </a>
-                      </li>
-                      <li class="social__item">
-                        <a href="https://facebook.com" class="social__link"
-                          ><svg
-                            width="25"
-                            height="24"
-                            viewBox="0 0 25 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
-                              d="M24.8063 11.6175C24.8063 5.20194 19.2525 0 12.4031 0C5.55372 0 0 5.20194 0 11.6175C0 17.4159 4.53489 22.2221 10.4651 23.0944V14.9767H7.31508V11.6175H10.4651V9.05802C10.4651 6.1469 12.3173 4.53757 15.1501 4.53757C16.5072 4.53757 17.927 4.76473 17.927 4.76473V7.62398H16.3622C14.8223 7.62398 14.3406 8.51915 14.3406 9.43922V11.6175H17.7802L17.2309 14.9767H14.3411V23.0955C20.2714 22.2236 24.8063 17.4174 24.8063 11.6175Z"
-                              fill="#181818"
-                            />
-                          </svg>
-                        </a>
-                      </li>
-                      <li class="social__item">
-                        <a href="https://twitter.com" class="social__link"
-                          ><svg
-                            width="24"
-                            height="19"
-                            viewBox="0 0 24 19"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M23.1572 2.19355C22.2886 2.57072 21.3695 2.81921 20.429 2.93116C21.4174 2.35283 22.1607 1.43404 22.5195 0.347118C21.585 0.893138 20.5644 1.27625 19.5013 1.48005C19.0536 1.01122 18.5152 0.63826 17.9188 0.383828C17.3225 0.129396 16.6805 -0.00118949 16.032 8.16405e-06C13.4066 8.16405e-06 11.2819 2.09231 11.2819 4.67154C11.2801 5.0303 11.3212 5.38799 11.4045 5.73697C9.52182 5.64878 7.67833 5.16886 5.99193 4.32792C4.30553 3.48699 2.81336 2.30355 1.61088 0.853321C1.18902 1.56399 0.965914 2.37484 0.964885 3.20114C0.964885 4.82099 1.81061 6.25282 3.08763 7.09167C2.33103 7.07372 1.58993 6.87361 0.927255 6.50833V6.56618C0.927255 8.83204 2.56756 10.717 4.73855 11.1461C4.3303 11.2549 3.9096 11.31 3.48709 11.31C3.18729 11.3105 2.88818 11.2815 2.59409 11.2232C3.19763 13.0793 4.9542 14.4292 7.03498 14.4678C5.3442 15.7699 3.26836 16.4736 1.13374 16.4685C0.754838 16.4679 0.376289 16.4454 0 16.401C2.17156 17.7866 4.69583 18.5196 7.27234 18.5126C16.0219 18.5126 20.802 11.392 20.802 5.21631C20.802 5.01383 20.7966 4.81134 20.787 4.61368C21.7148 3.9542 22.5174 3.13466 23.1572 2.19355Z"
-                              fill="#181818"
-                            />
-                          </svg>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </article>
-              </li>
-            </ul>
           </div>
         </section>
         <section class="cta">
-          <div class="cta__inner container">
-            <div class="cta__content">
-              <span class="cta__kicker title-green">Book Now</span>
-              <h2 class="cta__title title-cta">
-                Better Consult,
-                <span class="cta__highlight cta-span">Better</span>
-                Results
-              </h2>
-              <p class="cta__lead text2 cta-text2">
-                Our software development agency has a growth up to 30% per each year. If you are result-oriented, not
-                afraid to take initiative – drop us a note and join our team!
-              </p>
-              <a href="tel:8001234654" class="phone phone--cta">
-                <svg
-                  class="phone__icon"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M6.92684 11.6288C7.8954 13.629 9.51274 15.2422 11.5154 16.2056C11.6631 16.2755 11.8265 16.3058 11.9894 16.2934C12.1524 16.281 12.3094 16.2264 12.4448 16.135L15.3862 14.1702C15.5161 14.082 15.6663 14.0282 15.8227 14.0138C15.979 13.9994 16.1365 14.0249 16.2803 14.0878L21.7866 16.4526C21.9747 16.531 22.132 16.669 22.234 16.8454C22.3361 17.0219 22.3773 17.227 22.3513 17.4292C22.1768 18.7913 21.5119 20.0432 20.4811 20.9505C19.4503 21.8579 18.1242 22.3586 16.751 22.3589C12.5072 22.3589 8.43734 20.6731 5.43657 17.6723C2.43581 14.6715 0.75 10.6016 0.75 6.35791C0.75031 4.98465 1.25099 3.65855 2.15835 2.62776C3.06571 1.59696 4.31758 0.932096 5.67971 0.757577C5.88188 0.731607 6.08699 0.772817 6.26344 0.874863C6.4399 0.976908 6.57791 1.13413 6.65624 1.32232L9.02109 6.8403C9.08258 6.98189 9.10831 7.13644 9.096 7.29032C9.08369 7.4442 9.03372 7.59269 8.95049 7.7227L6.98567 10.7111C6.8982 10.8463 6.84685 11.0016 6.83655 11.1623C6.82626 11.323 6.85734 11.4836 6.92684 11.6288V11.6288Z"
-                    stroke="#181818"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-                +800 1234 654
-              </a>
+          <div class="section-space">
+            <div class="cta__inner container">
+              <div class="cta__content">
+                <span class="cta__kicker title--green">Book Now</span>
+                <h2 class="cta__title title--cta">
+                  Better Consult,
+                  <span class="cta__highlight cta-span">Better</span>
+                  Results
+                </h2>
+                <p class="cta__lead text--2 text--cta">
+                  Our software development agency has a growth up to 30% per each year. If you are result-oriented, not
+                  afraid to take initiative – drop us a note and join our team!
+                </p>
+                <a href="tel:8001234654" class="phone phone--cta">
+                  <svg
+                    class="phone__icon"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.92684 11.6288C7.8954 13.629 9.51274 15.2422 11.5154 16.2056C11.6631 16.2755 11.8265 16.3058 11.9894 16.2934C12.1524 16.281 12.3094 16.2264 12.4448 16.135L15.3862 14.1702C15.5161 14.082 15.6663 14.0282 15.8227 14.0138C15.979 13.9994 16.1365 14.0249 16.2803 14.0878L21.7866 16.4526C21.9747 16.531 22.132 16.669 22.234 16.8454C22.3361 17.0219 22.3773 17.227 22.3513 17.4292C22.1768 18.7913 21.5119 20.0432 20.4811 20.9505C19.4503 21.8579 18.1242 22.3586 16.751 22.3589C12.5072 22.3589 8.43734 20.6731 5.43657 17.6723C2.43581 14.6715 0.75 10.6016 0.75 6.35791C0.75031 4.98465 1.25099 3.65855 2.15835 2.62776C3.06571 1.59696 4.31758 0.932096 5.67971 0.757577C5.88188 0.731607 6.08699 0.772817 6.26344 0.874863C6.4399 0.976908 6.57791 1.13413 6.65624 1.32232L9.02109 6.8403C9.08258 6.98189 9.10831 7.13644 9.096 7.29032C9.08369 7.4442 9.03372 7.59269 8.95049 7.7227L6.98567 10.7111C6.8982 10.8463 6.84685 11.0016 6.83655 11.1623C6.82626 11.323 6.85734 11.4836 6.92684 11.6288V11.6288Z"
+                      stroke="#181818"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  +800 1234 654
+                </a>
+              </div>
+              <picture class="cta__media">
+                <img src="public/images/CTAImage.jpg" alt="" class="cta__img" />
+              </picture>
             </div>
-            <picture class="cta__media">
-              <img src="public/images/CTAImage.jpg" alt="" class="cta__img" />
-            </picture>
           </div>
         </section>
       </div>
@@ -792,7 +811,7 @@
                     </a>
                   </li>
                   <li class="social__item">
-                    <a class="social__link" href="https://	linkedin.com" target="_blank">
+                    <a class="social__link" href="https://linkedin.com" target="_blank">
                       <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                           d="M17.2783 0.620117H2.21773C1.39479 0.620117 0.675781 1.21224 0.675781 2.02551V17.1195C0.675781 17.9372 1.39479 18.6659 2.21773 18.6659H17.2739C18.1012 18.6659 18.7215 17.9324 18.7215 17.1195V2.02551C18.7264 1.21224 18.1012 0.620117 17.2783 0.620117ZM6.26957 15.6622H3.68435V7.62413H6.26957V15.6622ZM5.06638 6.40201H5.04785C4.22049 6.40201 3.68475 5.78612 3.68475 5.01515C3.68475 4.23008 4.23458 3.62869 5.08048 3.62869C5.92637 3.62869 6.44398 4.22565 6.46251 5.01515C6.46211 5.78612 5.92637 6.40201 5.06638 6.40201ZM15.7178 15.6622H13.1326V11.2671C13.1326 10.2142 12.7564 9.49477 11.8211 9.49477C11.1065 9.49477 10.6835 9.97814 10.4954 10.449C10.4249 10.6182 10.406 10.8486 10.406 11.0838V15.6622H7.82078V7.62413H10.406V8.74273C10.7822 8.20699 11.3699 7.43602 12.7374 7.43602C14.4345 7.43602 15.7182 8.55462 15.7182 10.9662L15.7178 15.6622Z"

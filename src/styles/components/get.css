@@ -8,3 +8,10 @@
   line-height: 160%;
   color: var(--color-whitly);
 }
+
+@media (--lg-viewport) {
+  .get {
+    font-size: 18px;
+    padding: 15px 34px;
+  }
+}

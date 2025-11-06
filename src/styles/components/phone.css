@@ -16,9 +16,9 @@
 }
 
 .phone--cta {
-  margin-top: 18px;
   background: var(--color-yellow);
   padding: 16px 21px;
+  padding-top: 18px;
   border-radius: 42px;
   display: flex;
   align-items: center;
@@ -30,7 +30,7 @@
   color: var(--color-charcoal-gray);
 }
 
-.phone--header{
+.phone--header {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -38,5 +38,21 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 160%;
-  color: var(--color-charcoal-gray);
+  color: var(--color-onyx);
+}
+
+@media (--lg-viewport) {
+  .phone {
+    font-size: 18px;
+    gap: 10px;
+  }
+
+  .phone svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .phone--cta {
+    padding: 14px 20px;
+  }
 }

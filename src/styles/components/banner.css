@@ -4,11 +4,6 @@
   background-size: cover;
   width: 100%;
   height: auto;
-  padding: 195px 0;
-}
-
-.banner__inner {
-  max-width: 1200px;
 }
 
 .bunner__media {
@@ -23,5 +18,51 @@
   width: 100%;
   max-width: 788px;
   backdrop-filter: blur(5px);
-  background: rgb(255 255 255 / 85%);
+  background: var(--color-whitly);
+}
+
+.description--banner {
+  font-weight: 700;
+  font-size: 50px;
+  color: var(--color-onyx);
+  padding-top: 21px;
+}
+
+@media (--sm-viewport) {
+  .banner__content {
+    padding: 35px 30px;
+  }
+
+  .description--banner {
+    font-size: 36px;
+  }
+}
+
+@media (--md-viewport) {
+  .banner__background {
+    min-height: 450px;
+  }
+
+  .banner__content {
+    padding: 40px 50px;
+  }
+
+  .description--banner {
+    font-size: 42px;
+  }
+}
+
+@media (--lg-viewport) {
+  .banner__background {
+    min-height: 500px;
+  }
+
+  .banner__content {
+    padding: 48px 60px 58px;
+    max-width: 788px;
+  }
+
+  .description--banner {
+    font-size: 50px;
+  }
 }

@@ -1,6 +1,27 @@
 :root {
   color-scheme: light;
 
-  --color-primary: var(--color-whitly);
-  --color-secondary: var(--color-black);
+  /* Page-level mapping used by utility.css */
+  --color-primary: var(--color-whitly); /* body background */
+  --color-secondary: var(--color-onyx); /* body text */
+
+  /* Ensure all component variables have light-mode defaults (override from colors.css if present) */
+  --color-onyx: #181818;
+  --color-whitly: #fff;
+  --color-monsoon-gray: #595566;
+  --color-light-smoke: #f5f5f5;
+  --color-light-gray: #eaeaea;
+  --color-night-black: #0d0d0d;
+  --color-black: #1d1d1d;
+  --color-white: #e3e3e3;
+  --color-charcoal-gray: #353535;
+  --color-dim-gray: #727272;
+
+  /* compatibility alias used in some components */
+  --color-gray: var(--color-dim-gray);
+
+  /* Accent colors (same in both themes) */
+  --color-yellow: #ffcc4a;
+  --color-apple-green: #4eaf4e;
+  --color-bright-yellow-green: #5ab612;
 }

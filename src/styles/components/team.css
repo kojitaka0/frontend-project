@@ -1,12 +1,11 @@
 .team {
   background-color: var(--color-light-smoke);
-  padding-top: 150px;
-  padding-bottom: 150px;
 }
 
 .team__header {
+  width: 100%;
   max-width: 643px;
-  margin-bottom: 44px;
+  padding-bottom: 44px;
 }
 
 .team__list {
@@ -14,4 +13,25 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 51px;
   align-items: start;
+}
+
+@media (--sm-viewport) {
+  .team__list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+}
+
+@media (--md-viewport) {
+}
+
+@media (--lg-viewport) {
+  .team__list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+
+  .team__name {
+    font-size: 28px;
+  }
 }
